@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+
+.contact-header{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    background-color: #F763A1;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    left: 200px;
+    padding-left: 1rem;
+    border-left: 1px #fff solid;
+}
+
+.contact-header p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.phone{
+    border-right: 1px #fff solid;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.contact-header a{
+    color: #fff;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-tiktok
+{
+    height: 25px;
+    width: 25px;
+}
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-tiktok:hover
+{
+    color: #F763A1;
+}
+
+.nav-social-media{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: fixed;
+    right: 250px;
+    height: 4rem;
+    /* border: 1px black solid; */
+}
+
+
+.nav-social-media li{
+    display: flex;
+    align-items: center;
+    border-left: 1px #fff solid;
+    border-right: 1px #fff solid;
+    height: 4rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.nav-social-media ul:hover{
+    color: #F763A1;
+}
+
+.nav-social-media li:hover{
+    background: #fff;
+}
+
+
+
+
+
+
+
+
