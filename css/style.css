@@ -147,36 +147,36 @@ html{
 .welcome{
     display: flex;
     flex-direction: column;
-    gap: 3.4rem;
+    gap: 4rem;
 
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.777), rgba(255, 255, 255, 0)), url(/images/welcome.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 475px;
+    height: 525px;
 }
 
 .welcome h1{
-    width: 550px;
+    width: 600px;
     margin-left: 125px;
     margin-top: 7rem;
 
     font-family: "Raleway", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    font-size: 4.5rem;
+    font-size: 5rem;
     color: #fff;
 }
 
 .welcome p{
-    width: 475px;
+    width: 500px;
     margin-left: 125px;
 
     font-family: "Roboto", sans-serif;
     font-weight: 350;
     font-style: normal;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     letter-spacing: 0.5px;
     color: #fff;
 }
@@ -218,7 +218,8 @@ html{
     margin: 15rem 0 15rem 0;
 }
 
-.services h2{
+.services h2,
+.process h2{
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 800;
@@ -229,15 +230,16 @@ html{
     
 }
 
-.services p{
+.services p,
+.process p{
     width: 900px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     letter-spacing: 0.5px;
     text-align: left;
-    line-height: 2.4rem;
+    line-height: 3rem;
 
     color: #000;
 
@@ -253,6 +255,7 @@ html{
     width: 350px;
     height: 300px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .services-cards{
@@ -267,7 +270,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 
     /* border: 1px black solid; */
 }
@@ -287,10 +290,10 @@ html{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     letter-spacing: 0.5px;
     text-align: left;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
 
     color: #000;
 
@@ -319,6 +322,151 @@ html{
 .services button:active{
     transform: scale(0.96);
 }
+
+.process{
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    align-items: center;
+    padding: 15rem 0 15rem 0;
+
+    background: #f4f4f4;
+    /* border: 1px black solid; */
+}
+
+.process mark{
+    color:#06855A;
+    background: #f4f4f4;
+    font-weight: 600;
+}
+
+.process-list{
+    width: 1175px;
+    display: flex;
+    gap: 8rem;
+}
+
+.process-list img{
+    width: 700px;
+    height: 100%;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.process-list ol{
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 3rem 0 3rem 0;
+}
+
+.process-list li{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.75px;
+    border-radius: 5px;
+    color: #06855A;
+}
+
+.process-list p{
+    width: 425px;
+    font-size: 1.7rem;
+}
+
+
+/* Footer */
+
+footer{
+    background: #06855A;
+    display: flex;
+    justify-content: center;
+    gap: 14rem;
+    padding: 9rem 0 9rem 0;
+}
+
+.f-socialmedia{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    /* border: 1px black solid; */
+}
+
+.f-socialmedia ul{
+    margin-left: 1.25rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.f-facebook,
+.f-instagram,
+.f-tiktok{
+    height: 35px;
+    width: 35px;
+}
+
+.f-socialmedia a{
+    color: #fff;
+}
+
+.f-services,
+.f-contact,
+.f-location{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    color: #fff;
+    /* border: 1px black solid; */
+}
+
+.f-services h5,
+.f-contact h5,
+.f-location h5{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.f-services ul,
+.f-contact ul,
+.f-location ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-services li,
+.f-contact li,
+.f-location li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.7rem;
+    letter-spacing: 1.5px;
+    line-height: 3.2rem;
+}
+
+.f-services p,
+.f-contact p,
+.f-location p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
+    line-height: 3rem;
+}
+
+.f-services a,
+.f-contact a,
+.f-location a{
+    color: #fff;
+}
+
 
 
 
