@@ -219,7 +219,8 @@ html{
 }
 
 .services h2,
-.process h2{
+.process h2,
+.whyus h2{
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 800;
@@ -519,6 +520,116 @@ html{
 .process-list p{
     width: 425px;
     font-size: 1.7rem;
+}
+
+
+/* About Us Page */
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    padding: 10rem 0 10rem 13rem;
+    /* align-items: center; */
+    /* padding-top: 10rem; */
+    background: #f9f9f9;
+
+    /* border: 1px black solid; */
+}
+
+.us{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 13rem 0 0;
+    gap: 5rem;
+}
+
+.aboutus h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.75px;
+    text-align: center;
+
+    color: #06855A;
+    
+}
+
+.aboutus p{
+    width: 600px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    line-height: 3rem;
+
+    color: #000;
+
+}
+
+.aboutus mark{
+    color:#06855A;
+    background: #f9f9f9;
+    font-weight: 600;
+}
+
+.aboutus img{
+    width: 500px;
+    height: 625px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.whyus{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding: 15rem 0 15rem 0;
+    background: #f4f4f4;
+    /* border: 1px black solid; */
+}
+
+.whyus li{
+    list-style: circle;
+    color: #000;
+}
+
+.whyus h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    text-align: center;
+
+    color: #000;
+}
+
+
+.whyus-list{
+    margin-top: 4rem;
+    width: 900px;
+    display: flex;
+    gap: 8rem;
+}
+
+.whyus-list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 0 3rem 0;
+}
+
+.whyus-list li{
+    font-family: "Roboto", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    border-radius: 5px;
+    color: #000;
 }
 
 
