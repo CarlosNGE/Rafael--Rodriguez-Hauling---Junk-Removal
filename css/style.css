@@ -605,7 +605,7 @@ html{
 .whyus h3{
     font-family: "Raleway", sans-serif;
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.75px;
     text-align: center;
 
@@ -624,17 +624,22 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
     margin: 3rem 0 3rem 0;
 }
 
 .whyus-list li{
     font-family: "Roboto", sans-serif;
     font-size: 2.1rem;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 0.75px;
     border-radius: 5px;
     color: #000;
+}
+
+strong{
+    color:#06855A;
+    font-weight: 600;
 }
 
 /* Contact Us Page */
