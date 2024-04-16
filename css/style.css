@@ -446,7 +446,8 @@ html{
 }
 
 
-.services2 button{
+.services2 button,
+.whyus button{
     width: 200px;
     height: 50px;
     font-family: "Raleway", sans-serif;
@@ -461,11 +462,13 @@ html{
     transition: all 0.2 ease;
 }
 
-.services2 button:hover{
+.services2 button:hover,
+.whyus button:hover{
     background: linear-gradient(#fb65a3, #f84f96);
 }
 
-.services2 button:active{
+.services2 button:active,
+.whyus button:active{
     transform: scale(0.96);
 }
 
@@ -493,8 +496,9 @@ html{
 }
 
 .process-list img{
-    width: 700px;
+    width: 625px;
     height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
@@ -504,8 +508,8 @@ html{
     /* width: 500px; */
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    margin: 3rem 0 3rem 0;
+    gap: 1rem;
+    margin: 5rem 0 3rem 0;
 }
 
 .process-list li{
@@ -518,8 +522,9 @@ html{
 }
 
 .process-list p{
-    width: 425px;
+    width: 450px;
     font-size: 1.7rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -631,6 +636,126 @@ html{
     border-radius: 5px;
     color: #000;
 }
+
+/* Contact Us Page */
+
+.contact{
+    display: flex;
+    margin: 5rem 13rem 10rem 13rem;
+    gap: 13rem;
+    border: 5px #f4a4c5 solid;
+}
+
+.contact img{
+    width: 400px;
+    height: 100%;
+    /* border: 5px #f4a4c5 solid; */
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px #f4a4c5 solid; */
+}
+
+.contact-info ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-f{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 5px #f4a4c5 solid; */
+}
+
+.f{
+    display: flex;
+    gap: 2rem;
+    /* align-items: start;
+    justify-content: center; */
+    margin-left: 7rem;
+}
+
+.contact-f a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-info p{
+    font-family: "Roboto", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+}
+.contact-info a{
+    color: #000;
+}
+
+.bi-envelope,
+.bi-telephone{
+    width: 3rem;
+    height: 100%;
+    color: #f4a4c5;
+}
+
+form{
+    background: #f4a4c5;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    /* margin: 5rem 13rem 10rem 13rem; */
+    
+}
+
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+form input,
+form select{
+    border: 0;
+    margin: 10px 0;
+    width: 430px;
+    height: 40px;
+    outline: none;
+    background: #fff;
+    font-size: 16px;
+    padding: 6px 0 15px 10px;
+    
+}
+
+form textarea{
+    border: 0;
+    margin: 10px 0;
+    width: 430px;
+    height: 150px;
+    outline: none;
+    background: #fff;
+    padding: 6px 0 15px 10px;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
 
 
 /* Footer */
