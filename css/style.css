@@ -36,6 +36,10 @@ html{
     border-left: 1px #fff solid;
 }
 
+.quote strong{
+    color:#fff
+}
+
 .contact-header p{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -149,7 +153,7 @@ html{
     flex-direction: column;
     gap: 4rem;
 
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.777), rgba(255, 255, 255, 0)), url(/images/welcome.jpg) ;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.777), rgba(255, 255, 255, 0)), url(../images/welcome.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -447,7 +451,7 @@ html{
 
 
 .services2 button,
-.whyus button{
+.us button{
     width: 200px;
     height: 50px;
     font-family: "Raleway", sans-serif;
@@ -463,12 +467,12 @@ html{
 }
 
 .services2 button:hover,
-.whyus button:hover{
+.us button:hover{
     background: linear-gradient(#fb65a3, #f84f96);
 }
 
 .services2 button:active,
-.whyus button:active{
+.us button:active{
     transform: scale(0.96);
 }
 
@@ -533,7 +537,7 @@ html{
 .aboutus{
     display: flex;
     flex-direction: row;
-    gap: 12rem;
+    gap: 10rem;
     padding: 10rem 0 10rem 13rem;
     /* align-items: center; */
     /* padding-top: 10rem; */
@@ -545,6 +549,7 @@ html{
 .us{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 6rem 13rem 0 0;
     gap: 5rem;
 }
@@ -581,8 +586,8 @@ html{
 }
 
 .aboutus img{
-    width: 500px;
-    height: 625px;
+    width: 550px;
+    height: 700px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
@@ -684,7 +689,7 @@ strong{
     gap: 2rem;
     /* align-items: start;
     justify-content: center; */
-    margin-left: 7rem;
+    margin-left: 4rem;
 }
 
 .contact-f a{
@@ -704,7 +709,8 @@ strong{
 }
 
 .bi-envelope,
-.bi-telephone{
+.bi-telephone,
+.bi-geo-alt{
     width: 3rem;
     height: 100%;
     color: #f4a4c5;
@@ -771,7 +777,7 @@ footer{
     justify-content: center;
     gap: 14rem;
     padding: 9rem 0 9rem 0;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 .f-socialmedia{
