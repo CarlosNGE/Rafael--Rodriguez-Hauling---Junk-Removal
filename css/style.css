@@ -19,6 +19,7 @@ html{
 /* Navegation */
 
 
+
 .contact-header{
     display: flex;
     height: 4rem;
@@ -86,7 +87,6 @@ html{
     /* border: 1px black solid; */
 }
 
-
 .nav-social-media li{
     display: flex;
     align-items: center;
@@ -110,7 +110,6 @@ html{
     align-items: center;
     padding: 1rem;
 }
-
 
 .logo{
     width: 15rem;
@@ -146,6 +145,7 @@ html{
 
 
 /* Main header */
+
 
 
 .welcome{
@@ -185,8 +185,13 @@ html{
     color: #fff;
 }
 
-.welcome button{
+.intro_btn{
+    display: flex;
+    gap: 5rem;
     margin-left: 125px;
+}
+
+.welcome button{
     width: 165px;
     height: 50px;
     font-family: "Raleway", sans-serif;
@@ -214,6 +219,7 @@ html{
 /* Services homepage */
 
 
+
 .services{
     display: flex;
     flex-direction: column;
@@ -232,7 +238,6 @@ html{
     text-align: center;
 
     color: #06855A;
-    
 }
 
 .services p,
@@ -247,7 +252,6 @@ html{
     line-height: 3rem;
 
     color: #000;
-
 }
 
 .services mark{
@@ -266,7 +270,6 @@ html{
 .services-cards{
     display: flex;
     gap: 7rem;
-
     /* border: 1px black solid; */
 }
 
@@ -328,7 +331,11 @@ html{
     transform: scale(0.96);
 }
 
+
+
 /* services main page */
+
+
 
 .services2{
     display: flex;
@@ -341,7 +348,7 @@ html{
     /* border: 1px black solid; */
 }
 
-.services2 h2{
+.services2 h1{
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 800;
@@ -349,7 +356,6 @@ html{
     text-align: center;
 
     color: #06855A;
-    
 }
 
 .services2 p{
@@ -424,7 +430,7 @@ html{
     gap: 5rem;
 }
 
-.incard h3{
+.incard h2{
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 800;
@@ -532,9 +538,13 @@ html{
 }
 
 
+
 /* About Us Page */
 
+
+
 .aboutus{
+    width: 100%;
     display: flex;
     flex-direction: row;
     gap: 10rem;
@@ -547,6 +557,7 @@ html{
 }
 
 .us{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -554,7 +565,7 @@ html{
     gap: 5rem;
 }
 
-.aboutus h2{
+.aboutus h1{
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 800;
@@ -562,11 +573,10 @@ html{
     text-align: center;
 
     color: #06855A;
-    
 }
 
 .aboutus p{
-    width: 600px;
+    width: 100%;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -576,7 +586,6 @@ html{
     line-height: 3rem;
 
     color: #000;
-
 }
 
 .aboutus mark{
@@ -586,8 +595,8 @@ html{
 }
 
 .aboutus img{
-    width: 550px;
-    height: 700px;
+    width: 500px;
+    height: 100%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
@@ -598,7 +607,7 @@ html{
     gap: 3rem;
     align-items: center;
     padding: 15rem 0 15rem 0;
-    background: #f4f4f4;
+    background: #fff;
     /* border: 1px black solid; */
 }
 
@@ -647,7 +656,11 @@ strong{
     font-weight: 600;
 }
 
+
+
 /* Contact Us Page */
+
+
 
 .contact{
     display: flex;
@@ -722,10 +735,9 @@ form{
     flex-direction: column;
     padding: 50px;
     /* margin: 5rem 13rem 10rem 13rem; */
-    
 }
 
-form h3{
+form h1{
     color: #555;
     font-weight: 800;
     margin-bottom: 20px;
@@ -742,7 +754,6 @@ form select{
     background: #fff;
     font-size: 16px;
     padding: 6px 0 15px 10px;
-    
 }
 
 form textarea{
@@ -770,6 +781,8 @@ form button{
 
 
 /* Footer */
+
+
 
 footer{
     background: #06855A;
