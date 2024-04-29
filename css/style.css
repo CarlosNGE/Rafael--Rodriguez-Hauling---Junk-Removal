@@ -148,6 +148,13 @@ html{
 
 /* bootstrap */
 
+.nav2{
+    display: flex;
+    /* border: 1px black solid; */
+    align-items: center;
+    padding: 1rem;
+}
+
 .container-fluid{
     background-color: #fff;
 }
@@ -949,21 +956,42 @@ footer{
 
     /* BootsTrap Nav */
 
-    .nav{
+    .nav2{
         position: fixed;
         width: 100%;
-        background: #fff;
+        background: #f8f9fa;
+        align-items: normal;
     }
 
 
     .navbar{
+        top: 25px;
         right: 25px;
+        /* border: 1px black solid; */
+        background: #f8f9fa;
         
     }
 
     .collapse{
-        
-    
+        background: #f8f9fa;
+    }
+
+    .container-fluid{
+        background: #f8f9fa;
+        border-radius: 3px;
+    }
+
+    .navbar-toggler{
+        width: 40px;
+        height: 40px;
+
+        border: 1px black solid;
+    }
+
+    .navbar-nav{
+        padding: 3rem;
+        text-align: center;
+        border-bottom: 1px solid #000;
     }
 
 }
