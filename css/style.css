@@ -961,6 +961,7 @@ footer{
         width: 100%;
         background: #f8f9fa;
         align-items: normal;
+        z-index: 1;
     }
 
 
@@ -992,6 +993,46 @@ footer{
         padding: 3rem;
         text-align: center;
         border-bottom: 1px solid #000;
+    }
+
+    /* Main header mobile */
+
+    .welcome{
+        position: relative;
+        top: 10rem;
+    }
+
+    .welcome h1{
+        width: 100%;
+        /* margin-left: 25px;
+        margin-top: 7rem; */
+
+        margin: 5rem 3rem 0 3rem;
+    
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .welcome p{
+        width: 100%;
+        margin: 0 3rem 0 3rem;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 2.25rem;
+        letter-spacing: 0.5px;
+        color: #fff;
+    }
+
+    .intro_btn{
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        /* margin-left: 3rem; */
     }
 
 }
