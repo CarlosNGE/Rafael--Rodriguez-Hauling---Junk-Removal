@@ -944,7 +944,7 @@ footer{
         width: 12rem;
         height: 100%;
         position: relative;
-        left: 125px;
+        left: 25px;
     }
 
     /* BootsTrap Nav */
@@ -955,10 +955,16 @@ footer{
         background: #fff;
     }
 
+
     .navbar{
+        right: 25px;
+        
+    }
+
+    .collapse{
         
     
-     }
+    }
 
 }
 
