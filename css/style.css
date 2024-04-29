@@ -1032,7 +1032,32 @@ footer{
         display: flex;
         align-items: center;
         gap: 5rem;
-        /* margin-left: 3rem; */
+        margin-left: 3rem;
+    }
+
+    /* Services homepage */
+
+    .services p,
+    .process p{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    line-height: 3rem;
+
+    padding: 0 3rem 0 3rem;
+
+    color: #000;
+    }
+
+    .services-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+        /* border: 1px black solid; */
     }
 
 }
