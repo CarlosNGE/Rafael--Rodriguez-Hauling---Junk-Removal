@@ -32,6 +32,7 @@ html{
     align-items: center;
     gap: 1rem;
     position: relative;
+    top: 5px;
     left: 125px;
     padding-left: 1.5rem;
     border-left: 1px #fff solid;
@@ -58,8 +59,39 @@ html{
     letter-spacing: 0.15rem;
 }
 
+.phone2{
+    display: none;
+}
+
 .contact-header a{
     color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.languages{
+    display: flex;
+    gap: 1.2rem;
+    position: absolute;
+    top: 10px;
+    right: 285px;
+    
+}
+
+.languages a{
+    text-decoration: none;
+}
+
+.languages img{
+    width: 20px;
+    height: 15px;
+    position: relative;
+    top: 3.4px;
+    left: 6px;
+    border: #fff 1px solid;
 }
 
 .bi-facebook,
@@ -224,9 +256,7 @@ html{
 
 .welcome h1{
     width: 600px;
-    margin-left: 125px;
-    margin-top: 7rem;
-
+    margin: 7rem 0 0 125px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -236,8 +266,7 @@ html{
 
 .welcome p{
     width: 500px;
-    margin-left: 125px;
-
+    margin: 0 0 0 125px;
     font-family: "Roboto", sans-serif;
     font-weight: 350;
     font-style: normal;
@@ -249,7 +278,7 @@ html{
 .intro_btn{
     display: flex;
     gap: 5rem;
-    margin-left: 125px;
+    margin: 0 0 0 125px;
 }
 
 .welcome button{
@@ -311,7 +340,6 @@ html{
     letter-spacing: 0.5px;
     text-align: left;
     line-height: 3rem;
-
     color: #000;
 }
 
@@ -542,6 +570,8 @@ html{
 .us button:active{
     transform: scale(0.96);
 }
+
+/* Our Process */
 
 .process{
     display: flex;
@@ -937,6 +967,7 @@ footer{
 
 
 /* mobile */
+
 @media screen and (min-width: 320px) and (max-width:767px) {
 
     /* .navbar-brand{
@@ -944,102 +975,150 @@ footer{
     } */
     
     .contact-header{
+        position: fixed;
+        z-index: 2;
+    }
+
+    .quote{
+        display: none;
+        left: 15px;
+        border: none;
+    }
+
+    .nav-social-media{
+        right: 15px;
+        
+    }
+
+    .nav-social-media li{
+        border: none;
+    }
+
+    .phone{
         display: none;
     }
 
-    .logo{
-        width: 12rem;
-        height: 100%;
+    .languages{
+        right: 170px;
+    }
+
+    .phone2{
+        display: block;
         position: relative;
-        left: 25px;
+        left: 45px;
+        top: 18px;
+
+        width: 175px;
+        height: 45px;
+        background: #f8f9fa;
+        border: 1.5px #000 solid;
+        border-radius: 10px;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 0.75px;
+        color: #000;
+    }
+
+    .nav2 a{
+        text-decoration: none;
+    }
+
+    .logo{
+        height: 100%;
+
+        width: 11rem;
+        position: relative;
+        top: 5px;
+        left: 18px;
     }
 
     /* BootsTrap Nav */
 
     .nav2{
         position: fixed;
+        top: 39px;
         width: 100%;
         background: #f8f9fa;
         align-items: normal;
         z-index: 1;
     }
 
+    .container-fluid{
+        background-color: #f8f9fa;
+        border-radius: 3px;
+    }
 
     .navbar{
         top: 25px;
         right: 25px;
-        /* border: 1px black solid; */
         background: #f8f9fa;
-        
     }
 
     .collapse{
         background: #f8f9fa;
     }
 
-    .container-fluid{
-        background: #f8f9fa;
-        border-radius: 3px;
-    }
-
-    .navbar-toggler{
-        width: 40px;
-        height: 40px;
-
-        border: 1px black solid;
-    }
-
     .navbar-nav{
         padding: 3rem;
         text-align: center;
-        border-bottom: 1px solid #000;
     }
+
+    .navbar-toggler{
+        position: relative;
+        right: -5px;
+        width: 40px;
+        height: 40px;
+        border: 1.5px #000 solid;
+    }
+
+    
 
     /* Main header mobile */
 
     .welcome{
         position: relative;
-        top: 10rem;
+        top: 13.75rem;
     }
 
     .welcome h1{
-        width: 100%;
-        /* margin-left: 25px;
-        margin-top: 7rem; */
-
-        margin: 5rem 3rem 0 3rem;
-    
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-style: normal;
         font-size: 5rem;
         color: #fff;
+
+        width: 100%;
+        margin: 5rem 3rem 0 3rem;
     }
 
     .welcome p{
-        width: 100%;
-        margin: 0 3rem 0 3rem;
-    
         font-family: "Roboto", sans-serif;
         font-weight: 350;
         font-style: normal;
         font-size: 2.25rem;
         letter-spacing: 0.5px;
         color: #fff;
+
+        width: 100%;
+        margin: 0 3rem 0 3rem;
     }
 
     .intro_btn{
         display: flex;
         align-items: center;
-        gap: 5rem;
-        margin-left: 3rem;
+        gap: 3rem;
+        margin: 0 0 0 3rem;
     }
 
     /* Services homepage */
 
+    .services{
+
+    }
+
     .services p,
     .process p{
-    width: 100%;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -1047,17 +1126,58 @@ footer{
     letter-spacing: 0.5px;
     text-align: left;
     line-height: 3rem;
-
-    padding: 0 3rem 0 3rem;
-
     color: #000;
+
+    width: 100%;
+    padding: 0 3rem 0 3rem;
     }
 
     .services-cards{
         display: flex;
-        flex-direction: column;
         gap: 7rem;
+
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
         /* border: 1px black solid; */
+    }
+
+    .card p{
+        width: 100%;
+    }
+
+
+    /* Our Process */
+
+    .process-list{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .process-list img{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .process-list ol{
+        width: 100%;
+    }
+
+    .process-list li{
+        width: 100%;
+    }
+
+    .process-list p{
+        width: 100%;
+    }
+
+    /* Footer */
+
+    footer{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
     }
 
 }
