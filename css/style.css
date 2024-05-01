@@ -326,7 +326,6 @@ html{
     font-weight: 800;
     letter-spacing: 0.75px;
     text-align: center;
-
     color: #06855A;
 }
 
@@ -368,7 +367,6 @@ html{
     flex-direction: column;
     align-items: center;
     gap: 5rem;
-
     border: none;
 }
 
@@ -907,6 +905,7 @@ footer{
 
 .f-socialmedia a{
     color: #fff;
+
 }
 
 .f-services,
@@ -920,9 +919,9 @@ footer{
     /* border: 1px black solid; */
 }
 
-.f-services h5,
-.f-contact h5,
-.f-location h5{
+.f-services h4,
+.f-contact h4,
+.f-location h4{
     font-family: "Raleway", sans-serif;
     font-size: 2.2rem;
     font-weight: 900;
@@ -962,6 +961,7 @@ footer{
 .f-contact a,
 .f-location a{
     color: #fff;
+    text-decoration: none;
 }
 
 
@@ -1008,7 +1008,6 @@ footer{
         position: relative;
         left: 45px;
         top: 18px;
-
         width: 175px;
         height: 45px;
         background: #f8f9fa;
@@ -1026,10 +1025,7 @@ footer{
     }
 
     .logo{
-        height: 100%;
-
         width: 11rem;
-        position: relative;
         top: 5px;
         left: 18px;
     }
@@ -1084,26 +1080,16 @@ footer{
     }
 
     .welcome h1{
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 4.5rem;
-        color: #fff;
-
         width: 100%;
+        font-size: 4.5rem;
         margin: 4rem 3rem 0 0;
         padding: 0 3rem 0 3rem;
         /* border: 3px black solid; */
     }
 
     .welcome p{
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-size: 2rem;
-        letter-spacing: 0.5px;
-        color: #fff;
-
         width: 100%;
+        font-size: 2.1rem;
         font-weight: 400;
         margin: 0 3rem 0 0;
         padding: 0 3rem 0 3rem;
@@ -1121,66 +1107,86 @@ footer{
 
     .services{
         width: 100%;
-        border: 1px black solid;
+        margin: 20rem 0 10rem 0;
+        gap: 5rem;
+        /* border: 1px black solid; */
     }
+
 
     .services p,
     .process p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 2.2rem;
-    letter-spacing: 0.5px;
-    text-align: left;
-    line-height: 3rem;
-    color: #000;
-
-    width: 100%;
-    padding: 0 3rem 0 3rem;
+        width: 100%;
+        letter-spacing: 0.25px;
+        font-size: 1.8rem;
+        padding: 0 3rem 0 3rem;
     }
 
     .services-cards{
-        display: flex;
-        gap: 7rem;
-
-        flex-direction: column;
         width: 100%;
+        gap: 10rem;
+        flex-direction: column;
         align-items: center;
         /* border: 1px black solid; */
     }
 
+    .services img{
+        margin: auto;
+        width: 350px;
+        height: 300px;
+    }
+
+    .card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
     .card p{
         width: 100%;
+        letter-spacing: 0.25px;
     }
 
 
     /* Our Process */
 
     .process{
-        border: 1px black solid;
+        padding: 10rem 0 2rem 0;
+        gap: 5rem;
     }
 
     .process-list{
         width: 100%;
         flex-direction: column;
         align-items: center;
+        gap: 2rem;
     }
 
     .process-list img{
-        width: 100%;
-        /* margin: 1rem; */
+        margin: auto;
+        width: 80%;
+    }
+
+    .process-list figure{
+        display: flex;
+        align-items: center;
     }
 
     .process-list ol{
-        width: 100%;
+        width: 80%;
+        gap: 3rem;
     }
 
     .process-list li{
-        width: 100%;
+        /* width: 90%; */
     }
 
     .process-list p{
-        width: 100%;
+        margin: 0 0 3rem 0;
+        padding: 0;
+        letter-spacing: 0.25px;
+        font-size: 1.8rem;
     }
 
     /* Footer */
@@ -1189,7 +1195,7 @@ footer{
         flex-direction: column;
         width: 100%;
         text-align: center;
-        border: 3px black solid;
+        gap: 10rem;
     }
 
 }
