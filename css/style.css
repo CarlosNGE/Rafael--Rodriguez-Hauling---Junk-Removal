@@ -71,11 +71,49 @@ html{
 
     .nav-social-media{
         right: 15px;
+
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        position: absolute;
+        height: 4rem;
     }
 
     .nav-social-media li{
         border: none;
+
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        padding: 0 1rem 0 1rem;
     }
+
+    /*  */
+
+    .bi-facebook,
+    .bi-instagram,
+    .bi-tiktok
+    {
+        height: 25px;
+        width: 25px;
+    }
+
+    .bi-facebook:hover,
+    .bi-instagram:hover,
+    .bi-tiktok:hover
+    {
+        color: #F763A1;
+    }
+
+    .nav-social-media ul:hover{
+        color: #F763A1;
+    }
+    
+    .nav-social-media li:hover{
+        background: #fff;
+    }
+
+    /*  */
 
     .phone{
         display: none;
@@ -105,90 +143,6 @@ html{
         border: #fff 1px solid;
     }
 
-    .bi-facebook,
-    .bi-instagram,
-    .bi-tiktok
-    {
-        height: 25px;
-        width: 25px;
-    }
-
-    .bi-facebook:hover,
-    .bi-instagram:hover,
-    .bi-tiktok:hover
-    {
-        color: #F763A1;
-    }
-
-    .nav-social-media{
-        display: flex;
-        align-items: center;
-        justify-content:space-around;
-        position: absolute;
-        right: 125px;
-        height: 4rem;
-        /* border: 1px black solid; */
-    }
-
-    .nav-social-media li{
-        display: flex;
-        align-items: center;
-        border-left: 1px #fff solid;
-        border-right: 1px #fff solid;
-        height: 4rem;
-        padding: 0 1rem 0 1rem;
-    }
-
-    .nav-social-media ul:hover{
-        color: #F763A1;
-    }
-
-    .nav-social-media li:hover{
-        background: #fff;
-    }
-
-    .nav{
-        display: flex;
-        /* border: 1px black solid; */
-        align-items: center;
-        padding: 1rem;
-    }
-    
-    .logo{
-        width: 15rem;
-        height: 100%;
-        position: relative;
-        left: 125px;
-    }
-    
-    .nav-links{
-        display: flex;
-        gap: 5rem;
-        position: absolute;
-        right: 125px;
-        
-    
-        font-family: "Raleway", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 1.75rem;
-    
-        /* border: 1px black solid; */
-    
-    }
-    
-    .nav-links a{
-        text-decoration: none;
-    }
-    
-    .nav-links a{
-        color: #000;
-    }
-    
-    .nav-links a:hover{
-        border-bottom: #F763A1 solid 3px;
-    }
-
     /*  */
 
     .phone2{
@@ -208,14 +162,14 @@ html{
         color: #000;
     }
 
-    .nav2 a{
-        text-decoration: none;
-    }
 
     .logo{
         width: 11rem;
         top: 5px;
         left: 18px;
+
+        height: 100%;
+        position: relative;
     }
 
     /* BootsTrap Nav */
@@ -229,8 +183,11 @@ html{
         z-index: 1;
 
         display: flex;
-        align-items: center;
         padding: 1rem;
+    }
+
+    .nav2 a{
+        text-decoration: none;
     }
 
     .container-fluid{
@@ -241,11 +198,9 @@ html{
     }
 
     /*  */
-
     .navbar-brand{
         display: none;
     }
-
     /*  */
 
     .navbar{
@@ -256,6 +211,7 @@ html{
         position: absolute;
         height: 30px;
     }
+    
 
     .collapse{
         background: #f8f9fa;
@@ -264,7 +220,38 @@ html{
     .navbar-nav{
         padding: 3rem;
         text-align: center;
+        padding: 2rem;
+
+        display: flex;
+        gap: 4rem;
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.75rem;
     }
+
+
+    /*  */
+    .navbar-nav li{
+        /* border: 1px black solid; */
+        margin: 0;
+    }
+    
+    .navbar-nav a{
+        text-decoration: none;
+        height: 32px;
+        margin: 0;
+    }
+    
+    .navbar-nav a{
+        color: #000;
+    }
+    
+    .navbar-nav a:hover{
+        border-bottom: #F763A1 solid 3px;
+    }
+    /*  */
 
     .navbar-toggler{
         position: relative;
@@ -927,9 +914,9 @@ html{
 
     border: 1px black solid;
 
-}
+} */
 
-.nav-links a{
+/* .nav-links a{
     text-decoration: none;
 }
 
