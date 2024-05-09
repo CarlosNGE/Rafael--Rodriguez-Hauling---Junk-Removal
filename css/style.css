@@ -1533,6 +1533,10 @@ footer{
         border: none;
     }
 
+    .card p{
+        width: 70%;
+    }
+
     /* Our Process */
 
     .process{
@@ -1553,6 +1557,52 @@ footer{
         width: 100%;
         gap: 3rem;
         padding: 0 0 0 13rem;
+    }
+
+    /* services main page */
+
+    .services2{
+        width: 100%;
+        margin: 0 0 15rem 0;
+        gap: 5rem;
+    }
+
+    .services2 p{
+        width: 85%;
+        
+    
+    }
+
+    .services-cards2{
+        padding: 10rem 0 10rem 0;
+        gap: 15rem;
+    }
+
+    .card1{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        gap: 3rem;
+        /* border: 1px black solid; */
+    }
+
+    .card2{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        gap: 3rem;
+        /* border: 1px black solid; */
+    }
+
+    .incard{
+        width: 100%;
+        gap: 3rem;
+    }
+
+    .incard p{
+        width: 70%;
+        
+    
     }
 
 
