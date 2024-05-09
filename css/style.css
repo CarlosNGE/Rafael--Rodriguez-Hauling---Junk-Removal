@@ -443,7 +443,7 @@ html{
 }
 
 .services2 p{
-    width: 1010px;
+    width: 1005px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -915,8 +915,10 @@ footer{
     background: #06855A;
     display: flex;
     justify-content: center;
-    gap: 15rem;
+    gap: 14rem;
     padding: 9rem 0 9rem 0;
+
+    
     /* border: 1px black solid; */
 }
 
