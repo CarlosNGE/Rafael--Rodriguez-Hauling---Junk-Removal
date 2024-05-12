@@ -235,6 +235,8 @@ html{
     border-bottom: #F763A1 solid 3px;
 }
 
+
+
 /* Main header */
 
 
@@ -424,7 +426,7 @@ html{
 .services2{
     display: flex;
     flex-direction: column;
-    gap: 13rem;
+    gap: 10rem;
     align-items: center;
     padding: 10rem 0 0 0;
     background: #f9f9f9;
@@ -470,8 +472,10 @@ html{
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 15rem;
     justify-content: center;
     background: #fff;
+    padding: 20rem 0 10rem 0;
 }
 
 
@@ -481,7 +485,7 @@ html{
     flex-direction: row;
     align-items: center;
     gap: 15rem;
-    padding: 12rem 0 12rem 13rem;
+    padding: 0 0 12rem 13rem;
 
     /* border: 1px black solid; */
 }
@@ -492,7 +496,7 @@ html{
     flex-direction: row-reverse;
     align-items: center;
     gap: 15rem;
-    padding: 12rem 12rem 12rem 0;
+    padding: 0 12rem 12rem 0;
     /* border: 1px black solid; */
 }
 
@@ -1635,6 +1639,60 @@ footer{
     }
 
 
+    /* About Us Page */
+
+
+
+    .aboutus{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 6rem; 
+        grid-template-areas: 
+        "b"
+        "a"
+        "c"
+        "d"
+        "e"
+        ;
+        padding: 3rem 0 8rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutus h1{
+        width: 100%;
+        font-size: 3rem;
+        padding: 7rem 0 2rem 0;
+    }
+
+    .aboutus p{
+        font-size: 2.2rem;
+        padding: 0 75px 0 75px;
+    }
+
+    .aboutus img{
+        margin: auto;
+        width: 450px;
+        height: 400px;
+        object-fit: cover;
+        object-position: 10% 10%;
+    }
+
+    .div1 { 
+        display: flex;
+        align-items: center;
+    }
+
+    .div5 { 
+        padding: 0;
+    } 
+
+
+    .whyus-list{
+        width: 80%;
+    }
+
     /* Footer */
 
 
@@ -1693,13 +1751,167 @@ footer{
 }
 
 @media screen and (min-width: 1207px) and (max-width:1463px) {
+    
+
+    /* Navegation */
+
+
+    .quote{
+        left: 75px;
+    }
+
+    .languages{
+        right: 250px;
+    }
+
+    .nav-social-media{
+        right: 75px;
+    }
+
+    .logo{
+        left: 75px;
+    }
+
+    .navbar{
+        position: absolute;
+        right: 65px;
+        height: 30px;
+        /* border: 1px black solid; */
+    }
+
+
+    /* Main header */
+
+
+
+    .welcome h1{
+        margin: 5rem 0 0 75px;
+    }
+
+    .welcome p{
+        margin: 0 0 0 75px;
+    }
+
+    .intro_btn{
+        margin: 0 0 0 75px;
+    }
+
+
+    /* Services homepage */
+
+
+    .services img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .services-cards{
+        gap: 6rem;
+    }
+
+    .card{
+        width: 315px;
+    }
+
+    .card p{
+        width: 95%;
+    }
+
+
+
+    /* Our Process */
+
+
+    .process{
+        padding: 15rem 75px 15rem 75px;
+    }
+
+    .process-list{
+        width: 100%;
+        display: flex;
+        gap: 4rem;
+        padding: 0 0 0 0;
+    }
+
+    .process-list img{
+        width: 600px;
+        height: 100%;
+    }
+
+
+    /* services main page */
+
+
+
+    .services2 img{
+        width: 450px;
+        height: 400px;
+    }
+
+    .services-cards2{
+        padding: 0 75px 0 75px;
+    }
+    
+    
+    .card1{
+        justify-content: center;
+        gap: 7rem;
+        padding: 12rem 0 12rem 0;
+        /* border: 1px black solid; */
+    }
+    
+    .card2{
+        justify-content: center;
+        gap: 7rem;
+        padding: 12rem 0 12rem 0;
+        /* border: 1px black solid; */
+    }
+    
+    .incard{
+        gap: 3rem;
+        /* border: 1px black solid; */
+    }
+    
+    .incard h2{
+        font-size: 2.5rem;
+        color: #06855A;
+    }
+    
+    .incard p{
+        width: 500px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.8rem;
+        letter-spacing: 0.5px;
+        text-align: left;
+        line-height: 3rem;
+    
+        color: #000;
+    
+    }
+
+
+
+    /* About Us Page */
+
+
+
+    .aboutus{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1.25fr 1.5fr 2fr .75fr;
+        grid-column-gap: 10rem;
+        grid-row-gap: 0; 
+        padding: 10rem 0 10rem 13rem;
+    }
+
 
     footer{
         background: #06855A;
         display: flex;
         justify-content: center;
         gap: 10rem;
-        padding: 9rem 125px 9rem 125px;
+        padding: 9rem 75px 9rem 75px;
     
         
         /* border: 1px black solid; */
