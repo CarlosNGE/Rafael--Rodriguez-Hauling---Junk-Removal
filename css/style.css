@@ -346,15 +346,15 @@ html{
 }
 
 .services img{
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .services-cards{
     display: flex;
-    gap: 3rem;
+    gap: 9rem;
     /* border: 1px black solid; */
 }
 
@@ -378,11 +378,11 @@ html{
 }
 
 .card p{
-    width: 300px;
+    width: 100%;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     letter-spacing: 0.5px;
     text-align: left;
     line-height: 2.6rem;
@@ -562,7 +562,7 @@ html{
     flex-direction: column;
     gap: 13rem;
     align-items: center;
-    padding: 15rem 0 15rem 0;
+    padding: 15rem 125px 15rem 125px;
 
     background: #f4f4f4;
     /* border: 1px black solid; */
@@ -575,14 +575,14 @@ html{
 }
 
 .process-list{
-    width: 1175px;
+    width: 100%;
     display: flex;
-    gap: 5rem;
+    gap: 8rem;
     padding: 0 6rem 0 6rem;
 }
 
 .process-list img{
-    width: 600px;
+    width: 675px;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -912,7 +912,7 @@ footer{
     background: #06855A;
     display: flex;
     justify-content: center;
-    gap: 14rem;
+    gap: 15rem;
     padding: 9rem 0 9rem 0;
 
     
@@ -928,7 +928,7 @@ footer{
 }
 
 .f-socialmedia ul{
-    margin-left: 1rem;
+    margin-left: 0;
     display: flex;
     gap: 4rem;
 }
@@ -1493,15 +1493,15 @@ footer{
     /* Main header mobile */
 
     .welcome h1{
-        margin: 5rem 0 0 5rem;
+        margin: 5rem 0 0 7rem;
     }
 
     .welcome p{
-        margin: 0 0 0 5rem;
+        margin: 0 0 0 7rem;
     }
 
     .intro_btn{
-        margin: 0 0 0 5rem;
+        margin: 0 0 0 7rem;
     }
 
     /* Services homepage */
@@ -1512,6 +1512,7 @@ footer{
         width: 100%;
         margin: 15rem 0 15rem 0;
         align-items: center;
+        gap: 10rem;
     }
 
     .services p,
@@ -1525,6 +1526,11 @@ footer{
         text-align: left;
         line-height: 3rem;
         color: #000;
+    }
+
+    .services img{
+        width: 400px;
+        height: 350px;
     }
 
     .services-cards{
@@ -1545,15 +1551,19 @@ footer{
         border: none;
     }
 
+    .card h3{
+        font-size: 2.6rem;
+    }
+
     .card p{
-        width: 70%;
+        width: 60%;
     }
 
     /* Our Process */
 
     .process{
-        padding: 10rem 0 2rem 0;
-        gap: 5rem;
+        padding: 14rem 0 10rem 0;
+        gap: 10rem;
     }
 
     .process-list{
@@ -1561,14 +1571,21 @@ footer{
         flex-direction: column;
         align-items: center;
         gap: 10rem;
+        text-align: center;
     }
 
     .process-list ol{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 95%;
         gap: 3rem;
-        padding: 0 0 0 13rem;
+        margin: auto;
+        padding: 0 0 0 0;
+    }
+
+    .process-list p{
+        width: 95%;
+        
     }
 
     /* services main page */
@@ -1629,7 +1646,7 @@ footer{
         grid-template-rows: 1fr 1fr;
         text-align: center;
         grid-column-gap: 6rem;
-        grid-row-gap: 8rem;
+        grid-row-gap: 6rem;
         /* grid-template-areas: 
         "a a b b b"
         "a a c c c"
@@ -1639,6 +1656,7 @@ footer{
         padding: 10rem 10rem 10rem 10rem;
     }
 
+    .f-socialmedia,
     .f-services ul,
     .f-contact ul,
     .f-location ul{
@@ -1659,18 +1677,34 @@ footer{
 
     .f-contact{
         grid-column: 2 / 3;
-        grid-row: 1 / 2;
+        grid-row: 2 / 3;
         /* border: 1px black solid; */
     }
 
     .f-location{
         grid-column: 2 / 3;
-        grid-row: 2 / 3;
+        grid-row: 1 / 2;
+        margin: 5rem 0 0 0;
         /* border: 1px black solid; */
     }
 
 
     
+}
+
+@media screen and (min-width: 1207px) and (max-width:1463px) {
+
+    footer{
+        background: #06855A;
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        padding: 9rem 125px 9rem 125px;
+    
+        
+        /* border: 1px black solid; */
+    }
+
 }
 
 
