@@ -628,10 +628,18 @@ html{
     margin: auto;
 }
 
-.row{
+.row0{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
+
+.row6{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
 
 .gallery2{
     width: 100%;
@@ -696,6 +704,10 @@ html{
 .gallery-item.hide{
     display: none;
 }
+
+/* .all-photos.hide{
+    display: none;
+} */
 
 
 

@@ -1,6 +1,16 @@
 // Javascript code to active nav bar
 
+function showDiv() {
+    document.querySelector('.row6').style.display = 'flex';
+    
+    document.querySelector('.row0').style.display = 'none';
+    
+}
 
+function showDiv2() {
+    document.querySelector('.row0').style.display = 'flex';
+    document.querySelector('.row6').style.display = 'none';
+  }
 
 const filterContainer = document.querySelector(".gallery-filter");
 
@@ -29,10 +39,15 @@ filterContainer.addEventListener("click", (event) =>{
 })
 
 
+
+
 // As A Vanilla JavaScript Plugin
 
 var gallery =new SimpleLightbox('.gallery a', {
     /* options */
+
+    rel:false,
+
 
 });
 
@@ -43,6 +58,9 @@ var gallery =new SimpleLightbox('.gallery a', {
 var gallery = $('.gallery a').simpleLightbox({
 
     /* options */
+
+    rel:false,
+
 
 });
 
