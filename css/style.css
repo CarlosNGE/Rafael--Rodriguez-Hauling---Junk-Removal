@@ -645,7 +645,8 @@ html{
     width: 100%;
     display: block;
     min-height: 100vh;
-    padding: 100px 0;
+    padding: 5rem 0 0 0;
+    
 }
 
 .gallery-filter{
@@ -1395,6 +1396,25 @@ footer{
     }
 
 
+
+    /* Gallery */
+
+
+    .gallery2{
+        padding: 15rem 0 0 0;
+    }
+
+
+    .gallery-item{
+        width: calc(100% / 2);
+        padding: 15px;
+    }
+
+    .filter-item{
+        margin-bottom: 15px;
+    }
+
+
     /* About Us Page */
 
 
@@ -1728,6 +1748,20 @@ footer{
         width: 70%;
         
     
+    }
+
+
+
+    /* Gallery */
+
+    .gallery2{
+        padding: 5rem 0 0 0;
+    }
+
+
+    .gallery-item{
+        width: calc(100% / 3);
+        padding: 15px;
     }
 
 
