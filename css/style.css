@@ -634,6 +634,37 @@ html{
     flex-wrap: wrap;
 }
 
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.row5{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+
 .row6{
     display: flex;
     flex-wrap: wrap;

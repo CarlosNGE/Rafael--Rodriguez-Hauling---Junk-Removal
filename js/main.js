@@ -1,16 +1,56 @@
 // Javascript code to active nav bar
 
-function showDiv() {
-    document.querySelector('.row6').style.display = 'flex';
+function showDiv0() {
+    document.querySelector('.row0').style.display = 'flex';
+    document.querySelector('.row1').style.display = 'none';
+    document.querySelector('.row2').style.display = 'none';
+    document.querySelector('.row3').style.display = 'none';
+    document.querySelector('.row4').style.display = 'none';
+    document.querySelector('.row5').style.display = 'none';
+    document.querySelector('.row6').style.display = 'none';
     
+    
+}
+
+function showDiv1() {
+    document.querySelector('.row1').style.display = 'flex';
     document.querySelector('.row0').style.display = 'none';
     
 }
 
 function showDiv2() {
-    document.querySelector('.row0').style.display = 'flex';
-    document.querySelector('.row6').style.display = 'none';
-  }
+    document.querySelector('.row2').style.display = 'flex';
+    document.querySelector('.row0').style.display = 'none';
+    
+}
+
+function showDiv3() {
+    document.querySelector('.row3').style.display = 'flex';
+    document.querySelector('.row0').style.display = 'none';
+    
+}
+
+function showDiv4() {
+    document.querySelector('.row4').style.display = 'flex';
+    document.querySelector('.row0').style.display = 'none';
+    
+}
+
+function showDiv5() {
+    document.querySelector('.row5').style.display = 'flex';
+    document.querySelector('.row0').style.display = 'none';
+    
+}
+
+function showDiv6() {
+    document.querySelector('.row6').style.display = 'flex';
+    document.querySelector('.row0').style.display = 'none';
+    document.querySelector('.row1').style.display = 'none';
+    
+}
+
+
+
 
 const filterContainer = document.querySelector(".gallery-filter");
 
