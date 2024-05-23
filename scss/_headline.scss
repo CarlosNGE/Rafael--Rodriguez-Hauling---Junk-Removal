@@ -1,0 +1,38 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.777), rgba(255, 255, 255, 0)), url(../images/welcome_2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 525px;
+
+    h1{
+        width: 600px;
+        margin: 7rem 0 0 125px;
+        font-family: $secondary_font_family;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5rem;
+        color: $clr-ligth;
+    }
+
+    p{
+        width: 500px;
+        margin: 0 0 0 125px;
+        font-family: $primary_font_family;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 2.5rem;
+        letter-spacing: 0.5px;
+        color: $clr-ntrl-min;
+    }
+
+    .intro_btn{
+        display: flex;
+        gap: 5rem;
+        margin: 0 0 0 125px;
+    }
+}

@@ -1,0 +1,76 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    align-items: center;
+    margin: 15rem 0 15rem 0;
+
+    h2{
+        font-size: $fs-h2;
+        font-family: $primary_font_family;
+        font-weight: 800;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: $clr-secondary;
+    }
+
+    p{
+        width: 900px;
+        font-family: $primary_font_family;
+        font-size: $fs-base;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 0.5px;
+        text-align: left;
+        line-height: 3rem;
+        color: $clr-ntrl-max;
+
+        mark{
+            color: $clr-secondary;
+            background: $clr-ntrl-min;
+            font-weight: 600;
+        }
+    }
+
+    .services-cards{
+        display: flex;
+        gap: 9rem;
+        /* border: 1px black solid; */
+
+        .card{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5rem;
+            border: none;
+
+            img{
+                width: 350px;
+                height: 300px;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            }
+
+            h3{
+                font-family: $secondary_font_family;
+                font-size: $fs-h3;
+                color: $clr-secondary;
+                font-weight: 800;
+                letter-spacing: 0.75px;
+            }
+
+            p{
+                width: 100%;
+                font-family: $primary_font_family;
+                font-weight: 300;
+                font-style: normal;
+                font-size: $fs-milli;
+                letter-spacing: 0.5px;
+                text-align: left;
+                line-height: 2.6rem;
+                color: $clr-ntrl-max;
+            }
+        }
+    }
+}

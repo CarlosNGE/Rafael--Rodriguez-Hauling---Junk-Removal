@@ -1,3 +1,6 @@
+@import 'config';
+@import 'buttons';
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,111 +14,12 @@
 html{
     font-size: 62.5%;
 
-    .contact-header{
-        display: flex;
-        height: 4rem;
-        width: 100%;
-        background-color: #F763A1;
+    @import 'header';
 
-        .quote{
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            position: relative;
-            top: 5px;
-            left: 125px;
-            padding-left: 1.5rem;
-            border-left: 1px #fff solid;
+    @import 'headline';
 
-            p{
-                font-family: "Roboto", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 1.5rem;
-                color: #fff;
+    @import 'mainservices';
 
-                strong{
-                    color:#fff
-                }
-            }
+    @import 'process';
 
-            .phone{
-                border-right: 1px #fff solid;
-                height: 4rem;
-                display: flex;
-                align-items: center;
-                padding-right: 1.5rem;
-                letter-spacing: 0.15rem;
-            }
-            
-        }
-        
-        a{
-            color: #fff;
-            font-family: "Roboto", sans-serif;
-            font-weight: 800;
-            font-style: normal;
-            font-size: 1.5rem;
-            color: #fff;
-        }
-
-        .languages{
-            display: flex;
-            gap: 1.2rem;
-            position: absolute;
-            top: 10px;
-            right: 285px;
-
-            a{
-                text-decoration: none;
-            }
-
-            img{
-                width: 20px;
-                height: 15px;
-                position: relative;
-                top: 3.4px;
-                left: 6px;
-                border: #fff 1px solid;
-            }
-        }
-
-        ul{
-            display: flex;
-            align-items: center;
-            justify-content:space-around;
-            position: absolute;
-            right: 125px;
-            height: 4rem;
-
-            li{
-                display: flex;
-                align-items: center;
-                border-left: 1px #fff solid;
-                border-right: 1px #fff solid;
-                height: 4rem;
-                padding: 0 1rem 0 1rem;
-
-                .bi-facebook,
-                .bi-instagram,
-                .bi-tiktok
-                {
-                    height: 25px;
-                    width: 25px;
-                    &:hover{
-                        color: #F763A1;
-                    }
-                }
-                &:hover{
-                    background: #fff;
-                    
-                }
-            }
-
-           
-
-        }
-
-        
-    }
 }

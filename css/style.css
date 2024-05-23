@@ -1,4 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.btn-secondary, .btn-primary {
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.2 ease;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  background: #f5418d;
+}
+.btn-secondary:active, .btn-primary:active {
+  transform: scale(0.96);
+}
+
+.btn-primary {
+  background: linear-gradient(#f76da7, #F763A1);
+  width: 165px;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: linear-gradient(#f76da7, #F763A1);
+  width: 200px;
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,13 +40,13 @@
 html {
   font-size: 62.5%;
 }
-html .contact-header {
+html header .contact-header {
   display: flex;
   height: 4rem;
   width: 100%;
   background-color: #F763A1;
 }
-html .contact-header .quote {
+html header .contact-header .quote {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -26,17 +56,17 @@ html .contact-header .quote {
   padding-left: 1.5rem;
   border-left: 1px #fff solid;
 }
-html .contact-header .quote p {
+html header .contact-header .quote p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
   color: #fff;
 }
-html .contact-header .quote p strong {
+html header .contact-header .quote p strong {
   color: #fff;
 }
-html .contact-header .quote .phone {
+html header .contact-header .quote .phone {
   border-right: 1px #fff solid;
   height: 4rem;
   display: flex;
@@ -44,7 +74,7 @@ html .contact-header .quote .phone {
   padding-right: 1.5rem;
   letter-spacing: 0.15rem;
 }
-html .contact-header a {
+html header .contact-header a {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -52,17 +82,17 @@ html .contact-header a {
   font-size: 1.5rem;
   color: #fff;
 }
-html .contact-header .languages {
+html header .contact-header .languages {
   display: flex;
   gap: 1.2rem;
   position: absolute;
   top: 10px;
   right: 285px;
 }
-html .contact-header .languages a {
+html header .contact-header .languages a {
   text-decoration: none;
 }
-html .contact-header .languages img {
+html header .contact-header .languages img {
   width: 20px;
   height: 15px;
   position: relative;
@@ -70,7 +100,7 @@ html .contact-header .languages img {
   left: 6px;
   border: #fff 1px solid;
 }
-html .contact-header ul {
+html header .contact-header ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -78,7 +108,7 @@ html .contact-header ul {
   right: 125px;
   height: 4rem;
 }
-html .contact-header ul li {
+html header .contact-header ul li {
   display: flex;
   align-items: center;
   border-left: 1px #fff solid;
@@ -86,17 +116,181 @@ html .contact-header ul li {
   height: 4rem;
   padding: 0 1rem 0 1rem;
 }
-html .contact-header ul li .bi-facebook,
-html .contact-header ul li .bi-instagram,
-html .contact-header ul li .bi-tiktok {
+html header .contact-header ul li .bi-facebook,
+html header .contact-header ul li .bi-instagram,
+html header .contact-header ul li .bi-tiktok {
   height: 25px;
   width: 25px;
 }
-html .contact-header ul li .bi-facebook:hover,
-html .contact-header ul li .bi-instagram:hover,
-html .contact-header ul li .bi-tiktok:hover {
+html header .contact-header ul li .bi-facebook:hover,
+html header .contact-header ul li .bi-instagram:hover,
+html header .contact-header ul li .bi-tiktok:hover {
   color: #F763A1;
 }
-html .contact-header ul li:hover {
+html header .contact-header ul li:hover {
   background: #fff;
+}
+html header .nav2 {
+  display: flex;
+  /* border: 1px black solid; */
+  align-items: center;
+  padding: 1rem;
+}
+html header .nav2 .logo {
+  width: 15rem;
+  height: 100%;
+  position: relative;
+  left: 125px;
+}
+html header .nav2 .phone2 {
+  display: none;
+}
+html header .nav2 .navbar {
+  position: absolute;
+  right: 114px;
+  height: 30px;
+  /* border: 1px black solid; */
+}
+html header .nav2 .container-fluid {
+  width: 100%;
+  background-color: #fff;
+  /* border: 1px black solid; */
+}
+html header .nav2 .navbar-brand {
+  display: none;
+}
+html header .nav2 .navbar-nav {
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.75rem;
+  /* border: 1px black solid; */
+}
+html header .nav2 .navbar-nav li {
+  margin: 0;
+}
+html header .nav2 .navbar-nav a {
+  text-decoration: none;
+  height: 32px;
+  margin: 0;
+  color: #000;
+}
+html header .nav2 .navbar-nav a:hover {
+  border-bottom: #F763A1 solid 3px;
+}
+html .welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.777), rgba(255, 255, 255, 0)), url(../images/welcome_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 525px;
+}
+html .welcome h1 {
+  width: 600px;
+  margin: 7rem 0 0 125px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+  color: #fff;
+}
+html .welcome p {
+  width: 500px;
+  margin: 0 0 0 125px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+html .welcome .intro_btn {
+  display: flex;
+  gap: 5rem;
+  margin: 0 0 0 125px;
+}
+html .services {
+  display: flex;
+  flex-direction: column;
+  gap: 13rem;
+  align-items: center;
+  margin: 15rem 0 15rem 0;
+}
+html .services h2 {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #06855A;
+}
+html .services p {
+  width: 900px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 3rem;
+  color: #000;
+}
+html .services p mark {
+  color: #06855A;
+  background: #fff;
+  font-weight: 600;
+}
+html .services .services-cards {
+  display: flex;
+  gap: 9rem;
+  /* border: 1px black solid; */
+}
+html .services .services-cards .card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  border: none;
+}
+html .services .services-cards .card img {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+html .services .services-cards .card h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  color: #06855A;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+}
+html .services .services-cards .card p {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 2.6rem;
+  color: #000;
+}
+html .process {
+  display: flex;
+  flex-direction: column;
+  gap: 13rem;
+  align-items: center;
+  padding: 15rem 125px 15rem 125px;
+  background: #f4f4f4;
+  /* border: 1px black solid; */
 }/*# sourceMappingURL=style.css.map */

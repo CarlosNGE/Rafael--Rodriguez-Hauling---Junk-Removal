@@ -1,0 +1,173 @@
+header{
+
+    .contact-header{
+        display: flex;
+        height: 4rem;
+        width: 100%;
+        background-color: $clr-primary;
+
+        .quote{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+            top: 5px;
+            left: 125px;
+            padding-left: 1.5rem;
+            border-left: 1px $border-clr-ligth solid;
+
+            p{
+                font-family: $primary_font_family;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1.5rem;
+                color: $clr-ntrl-min;
+
+                strong{
+                    color:$clr-ntrl-min;
+                }
+            }
+
+            .phone{
+                border-right: 1px $border-clr-ligth solid;
+                height: 4rem;
+                display: flex;
+                align-items: center;
+                padding-right: 1.5rem;
+                letter-spacing: 0.15rem;
+            }
+            
+        }
+        
+        a{
+            color: $clr-ntrl-min;
+            font-family: $primary_font_family;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 1.5rem;
+            color: $clr-ntrl-min;
+        }
+
+        .languages{
+            display: flex;
+            gap: 1.2rem;
+            position: absolute;
+            top: 10px;
+            right: 285px;
+
+            a{
+                text-decoration: none;
+            }
+
+            img{
+                width: 20px;
+                height: 15px;
+                position: relative;
+                top: 3.4px;
+                left: 6px;
+                border: $border-clr-ligth 1px solid;
+            }
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            position: absolute;
+            right: 125px;
+            height: 4rem;
+
+            li{
+                display: flex;
+                align-items: center;
+                border-left: 1px $border-clr-ligth solid;
+                border-right: 1px $border-clr-ligth solid;
+                height: 4rem;
+                padding: 0 1rem 0 1rem;
+
+                .bi-facebook,
+                .bi-instagram,
+                .bi-tiktok
+                {
+                    height: 25px;
+                    width: 25px;
+                    &:hover{
+                        color: $clr-primary;
+                    }
+                }
+                &:hover{
+                    background: $clr-ntrl-min;
+                    
+                }
+            }
+
+        
+
+        }
+
+        
+    }
+
+    .nav2{
+        display: flex;
+        /* border: 1px black solid; */
+        align-items: center;
+        padding: 1rem;
+
+        .logo{
+            width: 15rem;
+            height: 100%;
+            position: relative;
+            left: 125px;
+        }
+
+        .phone2{
+            display: none;
+        }
+
+        .navbar{
+            position: absolute;
+            right: 114px;
+            height: 30px;
+            /* border: 1px black solid; */
+        }
+
+        .container-fluid{
+            width: 100%;
+            background-color: #fff;
+            // height: 30px;
+            /* border: 1px black solid; */
+        }
+
+        .navbar-brand{
+            display: none;
+        }
+
+        .navbar-nav{
+            display: flex;
+            gap: 4rem;
+            margin: 0;
+            padding: 0;
+            font-family: "Raleway", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1.75rem;
+            /* border: 1px black solid; */
+
+            li{
+                margin: 0;
+            }
+
+            a{
+                text-decoration: none;
+                height: 32px;
+                margin: 0;
+                color: #000;
+
+                &:hover{
+                    border-bottom: #F763A1 solid 3px;
+                }
+            }
+        }
+    }
+}
