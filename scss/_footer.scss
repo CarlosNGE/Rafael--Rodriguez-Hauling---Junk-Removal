@@ -1,0 +1,132 @@
+footer{
+    background: $clr-secondary;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 9rem 0 9rem 0;
+
+    .f-socialmedia{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+
+        ul{
+            margin-left: 0;
+            display: flex;
+            gap: 4rem;
+
+            a{
+                color: $clr-ntrl-min;
+            }
+
+            .f-facebook,
+            .f-instagram,
+            .f-tiktok{
+                height: 35px;
+                width: 35px;
+            }
+        }
+    }
+
+    .f-services{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        color: $clr-ntrl-min;
+
+        h4{
+            font-family: $secondary_font_family;
+            font-size: $fs-h4;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            li{
+                font-family: $primary_font_family;
+                font-weight: 600;
+                font-style: normal;
+                font-size: $fs-milli;
+                letter-spacing: 1.5px;
+                line-height: 3.5rem;
+            }
+        }
+    }
+
+    .f-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        color: $clr-ntrl-min;
+
+        h4{
+            font-family: $secondary_font_family;
+            font-size: $fs-h4;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            li{
+                font-family: $primary_font_family;
+                font-weight: 600;
+                font-style: normal;
+                font-size: $fs-milli;
+                letter-spacing: 1.5px;
+                line-height: 3.5rem;
+            }
+
+            p{
+                font-family: $primary_font_family;
+                font-weight: 500;
+                font-style: normal;
+                font-size: $fs-nano;
+                letter-spacing: 1.2px;
+                line-height: 3rem;
+            }
+        }
+    }
+
+    .f-location{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        color: $clr-ntrl-min;
+
+        h4{
+            font-family: $secondary_font_family;
+            font-size: $fs-h4;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            li{
+                font-family: $primary_font_family;
+                font-weight: 600;
+                font-style: normal;
+                font-size: $fs-milli;
+                letter-spacing: 1.5px;
+                line-height: 3.5rem;
+            }
+        }
+    }
+
+    a{
+        color: $clr-ntrl-min;
+        text-decoration: none;
+    }
+}

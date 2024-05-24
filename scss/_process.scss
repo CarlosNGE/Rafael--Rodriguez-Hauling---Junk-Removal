@@ -1,0 +1,73 @@
+.process{
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    align-items: center;
+    padding: 15rem 125px 15rem 125px;
+    background: $clr-gray;
+    
+    h2{
+        font-size: $fs-h2;
+        font-family: $primary_font_family;
+        font-weight: 800;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: $clr-secondary;
+    }
+
+    p{
+        width: 900px;
+        font-family: $primary_font_family;
+        font-size: $fs-base;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 0.5px;
+        text-align: left;
+        line-height: 3rem;
+        color: $clr-ntrl-max;
+
+        mark{
+            color: $clr-secondary;
+            background: $clr-gray;
+            font-weight: 600;
+        }
+    }
+
+    .process-list{
+        width: 100%;
+        display: flex;
+        gap: 8rem;
+        padding: 0 6rem 0 5rem;
+
+        img{
+            width: 675px;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        }
+
+        ol{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin: 5rem 0 3rem 0;
+
+            li{
+                font-family: $secondary_font_family;
+                font-size: $fs-low;
+                font-weight: 800;
+                letter-spacing: 0.75px;
+                border-radius: 5px;
+                color: $clr-secondary;
+            }
+
+            p{
+                width: 400px;
+                font-size: $fs-milli;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}
