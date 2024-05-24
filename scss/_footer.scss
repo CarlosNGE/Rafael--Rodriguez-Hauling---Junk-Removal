@@ -16,10 +16,6 @@ footer{
             display: flex;
             gap: 4rem;
 
-            a{
-                color: $clr-ntrl-min;
-            }
-
             .f-facebook,
             .f-instagram,
             .f-tiktok{
@@ -30,59 +26,33 @@ footer{
     }
 
     .f-services{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-        color: $clr-ntrl-min;
+        @extend %footer-sect;
 
         h4{
-            font-family: $secondary_font_family;
-            font-size: $fs-h4;
-            font-weight: 900;
-            letter-spacing: 2px;
+            @extend %footer-h4;
         }
 
         ul{
-            display: flex;
-            flex-direction: column;
-            padding: 0;
+            @extend %footer-ul;
 
             li{
-                font-family: $primary_font_family;
-                font-weight: 600;
-                font-style: normal;
-                font-size: $fs-milli;
-                letter-spacing: 1.5px;
-                line-height: 3.5rem;
+                @extend %footer-li;
             }
         }
     }
 
     .f-contact{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-        color: $clr-ntrl-min;
+        @extend %footer-sect;
 
         h4{
-            font-family: $secondary_font_family;
-            font-size: $fs-h4;
-            font-weight: 900;
-            letter-spacing: 2px;
+            @extend %footer-h4;
         }
 
         ul{
-            display: flex;
-            flex-direction: column;
-            padding: 0;
+            @extend %footer-ul;
 
             li{
-                font-family: $primary_font_family;
-                font-weight: 600;
-                font-style: normal;
-                font-size: $fs-milli;
-                letter-spacing: 1.5px;
-                line-height: 3.5rem;
+                @extend %footer-li;
             }
 
             p{
@@ -97,30 +67,17 @@ footer{
     }
 
     .f-location{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-        color: $clr-ntrl-min;
+        @extend %footer-sect;
 
         h4{
-            font-family: $secondary_font_family;
-            font-size: $fs-h4;
-            font-weight: 900;
-            letter-spacing: 2px;
+            @extend %footer-h4;
         }
 
         ul{
-            display: flex;
-            flex-direction: column;
-            padding: 0;
+            @extend %footer-ul;
 
             li{
-                font-family: $primary_font_family;
-                font-weight: 600;
-                font-style: normal;
-                font-size: $fs-milli;
-                letter-spacing: 1.5px;
-                line-height: 3.5rem;
+                @extend %footer-li;
             }
         }
     }

@@ -1,0 +1,28 @@
+%footer-sect{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    color: $clr-ntrl-min;
+}
+
+%footer-h4{
+    font-family: $secondary_font_family;
+    font-size: $fs-h4;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+%footer-ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+%footer-li{
+    font-family: $primary_font_family;
+    font-weight: 600;
+    font-style: normal;
+    font-size: $fs-milli;
+    letter-spacing: 1.5px;
+    line-height: 3.5rem;
+}

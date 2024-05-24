@@ -369,64 +369,11 @@ html footer .f-socialmedia ul {
   display: flex;
   gap: 4rem;
 }
-html footer .f-socialmedia ul a {
-  color: #fff;
-}
 html footer .f-socialmedia ul .f-facebook,
 html footer .f-socialmedia ul .f-instagram,
 html footer .f-socialmedia ul .f-tiktok {
   height: 35px;
   width: 35px;
-}
-html footer .f-services {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  color: #fff;
-}
-html footer .f-services h4 {
-  font-family: "Raleway", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 900;
-  letter-spacing: 2px;
-}
-html footer .f-services ul {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-html footer .f-services ul li {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.8rem;
-  letter-spacing: 1.5px;
-  line-height: 3.5rem;
-}
-html footer .f-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  color: #fff;
-}
-html footer .f-contact h4 {
-  font-family: "Raleway", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 900;
-  letter-spacing: 2px;
-}
-html footer .f-contact ul {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-html footer .f-contact ul li {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.8rem;
-  letter-spacing: 1.5px;
-  line-height: 3.5rem;
 }
 html footer .f-contact ul p {
   font-family: "Roboto", sans-serif;
@@ -436,32 +383,32 @@ html footer .f-contact ul p {
   letter-spacing: 1.2px;
   line-height: 3rem;
 }
-html footer .f-location {
+html footer a {
+  color: #fff;
+  text-decoration: none;
+}
+html footer .f-services, html footer .f-contact, html footer .f-location {
   display: flex;
   flex-direction: column;
   gap: 4rem;
   color: #fff;
 }
-html footer .f-location h4 {
+html footer .f-services h4, html footer .f-contact h4, html footer .f-location h4 {
   font-family: "Raleway", sans-serif;
   font-size: 2.2rem;
   font-weight: 900;
   letter-spacing: 2px;
 }
-html footer .f-location ul {
+html footer .f-services ul, html footer .f-contact ul, html footer .f-location ul {
   display: flex;
   flex-direction: column;
   padding: 0;
 }
-html footer .f-location ul li {
+html footer .f-services ul li, html footer .f-contact ul li, html footer .f-location ul li {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 1.8rem;
   letter-spacing: 1.5px;
   line-height: 3.5rem;
-}
-html footer a {
-  color: #fff;
-  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
