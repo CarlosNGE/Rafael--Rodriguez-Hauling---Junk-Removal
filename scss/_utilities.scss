@@ -9,6 +9,69 @@
     color: $clr-ntrl-max;
 }
 
+%in-card-h2{
+    font-family: $secondary_font_family;
+    font-size: $fs-h2;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: $clr-secondary;
+}
+
+%in-card-par{
+    width: 550px;
+    font-family: $primary_font_family;
+    font-weight: 300;
+    font-style: normal;
+    font-size: $fs-low;
+    letter-spacing: 0.5px;
+    text-align: left;
+    line-height: 3rem;
+    color: $clr-ntrl-max;
+}
+
+%gallery-row{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+
+    .gallery-item{
+        width: calc(100% / 4);
+        padding: 15px;
+
+        a{
+
+            .gallery-item-inner img{
+                width: 100%;
+                /* height: 200px; */
+                border: 4px solid #d4dad9;
+            }
+
+            
+        }
+    }
+
+    /* Animation */
+    .gallery-item.show{  /* for show*/
+        animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
+
+    /* for hide */
+    .gallery-item.hide{
+        display: none;
+    }
+}
+
 %footer-sect{
     display: flex;
     flex-direction: column;
@@ -36,4 +99,11 @@
     font-size: $fs-milli;
     letter-spacing: 1.5px;
     line-height: 3.5rem;
+}
+
+%in-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
 }

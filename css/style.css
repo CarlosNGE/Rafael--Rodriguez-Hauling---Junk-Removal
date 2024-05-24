@@ -29,7 +29,7 @@
   color: #fff;
 }
 
-html .process p, html .services2 p, html .services p {
+html .services2 p, html .process p, html .services p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -38,6 +38,58 @@ html .process p, html .services2 p, html .services p {
   text-align: left;
   line-height: 3rem;
   color: #000;
+}
+
+html .services2 .services-cards2 .card2 .incard h2, html .services2 .services-cards2 .card1 .incard h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #06855A;
+}
+
+html .services2 .services-cards2 .card2 .incard p, html .services2 .services-cards2 .card1 .incard p {
+  width: 550px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 3rem;
+  color: #000;
+}
+
+html .gallery2 .container .gallery .row .row6, html .gallery2 .container .gallery .row .row5, html .gallery2 .container .gallery .row .row4, html .gallery2 .container .gallery .row .row3, html .gallery2 .container .gallery .row .row2, html .gallery2 .container .gallery .row .row1 {
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+  /* Animation */
+  /* for hide */
+}
+html .gallery2 .container .gallery .row .row6 .gallery-item, html .gallery2 .container .gallery .row .row5 .gallery-item, html .gallery2 .container .gallery .row .row4 .gallery-item, html .gallery2 .container .gallery .row .row3 .gallery-item, html .gallery2 .container .gallery .row .row2 .gallery-item, html .gallery2 .container .gallery .row .row1 .gallery-item {
+  width: 25%;
+  padding: 15px;
+}
+html .gallery2 .container .gallery .row .row6 .gallery-item a .gallery-item-inner img, html .gallery2 .container .gallery .row .row5 .gallery-item a .gallery-item-inner img, html .gallery2 .container .gallery .row .row4 .gallery-item a .gallery-item-inner img, html .gallery2 .container .gallery .row .row3 .gallery-item a .gallery-item-inner img, html .gallery2 .container .gallery .row .row2 .gallery-item a .gallery-item-inner img, html .gallery2 .container .gallery .row .row1 .gallery-item a .gallery-item-inner img {
+  width: 100%;
+  /* height: 200px; */
+  border: 4px solid #d4dad9;
+}
+html .gallery2 .container .gallery .row .row6 .gallery-item.show, html .gallery2 .container .gallery .row .row5 .gallery-item.show, html .gallery2 .container .gallery .row .row4 .gallery-item.show, html .gallery2 .container .gallery .row .row3 .gallery-item.show, html .gallery2 .container .gallery .row .row2 .gallery-item.show, html .gallery2 .container .gallery .row .row1 .gallery-item.show { /* for show*/
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html .gallery2 .container .gallery .row .row6 .gallery-item.hide, html .gallery2 .container .gallery .row .row5 .gallery-item.hide, html .gallery2 .container .gallery .row .row4 .gallery-item.hide, html .gallery2 .container .gallery .row .row3 .gallery-item.hide, html .gallery2 .container .gallery .row .row2 .gallery-item.hide, html .gallery2 .container .gallery .row .row1 .gallery-item.hide {
+  display: none;
 }
 
 html footer .f-location, html footer .f-contact, html footer .f-services {
@@ -67,6 +119,13 @@ html footer .f-location ul li, html footer .f-contact ul li, html footer .f-serv
   font-size: 1.8rem;
   letter-spacing: 1.5px;
   line-height: 3.5rem;
+}
+
+html .services2 .services-cards2 .card2 .incard, html .services2 .services-cards2 .card1 .incard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
 }
 
 * {
@@ -317,30 +376,6 @@ html .services .services-cards .card p {
   line-height: 2.6rem;
   color: #000;
 }
-html .services2 {
-  display: flex;
-  flex-direction: column;
-  gap: 10rem;
-  align-items: center;
-  padding: 10rem 0 0 0;
-  background: #f4f4f4;
-}
-html .services2 h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 800;
-  letter-spacing: 0.75px;
-  text-align: center;
-  color: #06855A;
-}
-html .services2 p {
-  width: 1005px;
-}
-html .services2 p mark {
-  color: #06855A;
-  background: #f4f4f4;
-  font-weight: 600;
-}
 html .process {
   display: flex;
   flex-direction: column;
@@ -398,6 +433,133 @@ html .process .process-list ol p {
   width: 400px;
   font-size: 1.8rem;
   margin-bottom: 3rem;
+}
+html .services2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+  padding: 10rem 0 0 0;
+  background: #f4f4f4;
+}
+html .services2 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #06855A;
+}
+html .services2 p {
+  width: 1005px;
+}
+html .services2 p mark {
+  color: #06855A;
+  background: #f4f4f4;
+  font-weight: 600;
+}
+html .services2 .services-cards2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+  justify-content: center;
+  background: #fff;
+  padding: 20rem 0 10rem 0;
+}
+html .services2 .services-cards2 .card1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15rem;
+  padding: 0 0 12rem 13rem;
+}
+html .services2 .services-cards2 .card2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 15rem;
+  padding: 0 12rem 12rem 0;
+}
+html .services2 .services-cards2 img {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+html .gallery2 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+  padding: 5rem 0 0 0;
+}
+html .gallery2 .container {
+  max-width: 1170px;
+  margin: auto;
+}
+html .gallery2 .container .row .gallery-filter {
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #000;
+  font-size: 17px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  line-height: 1.2;
+  transition: all 0.3 ease;
+  text-transform: uppercase;
+}
+html .gallery2 .container .row .gallery-filter .filter-item {
+  color: #000;
+  font-size: 17px;
+  border: 2px solid #000;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  line-height: 1.2;
+  transition: all 0.3 ease;
+  text-transform: uppercase;
+}
+html .gallery2 .container .row .gallery-filter .filter-item.active {
+  color: white;
+  background: #16b5ef;
+  border: 2px solid #16b5ef;
+}
+html .gallery2 .container .gallery .row .row0 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Animation */
+  /* for hide */
+}
+html .gallery2 .container .gallery .row .row0 .gallery-item {
+  width: 25%;
+  padding: 15px;
+}
+html .gallery2 .container .gallery .row .row0 .gallery-item a .gallery-item-inner img {
+  width: 100%;
+  /* height: 200px; */
+  border: 4px solid #d4dad9;
+}
+html .gallery2 .container .gallery .row .row0 .gallery-item.show { /* for show*/
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html .gallery2 .container .gallery .row .row0 .gallery-item.hide {
+  display: none;
 }
 html footer {
   background: #06855A;
