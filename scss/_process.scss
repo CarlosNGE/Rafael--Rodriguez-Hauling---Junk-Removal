@@ -16,15 +16,8 @@
     }
 
     p{
+        @extend %par;
         width: 900px;
-        font-family: $primary_font_family;
-        font-size: $fs-base;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: 0.5px;
-        text-align: left;
-        line-height: 3rem;
-        color: $clr-ntrl-max;
 
         mark{
             color: $clr-secondary;

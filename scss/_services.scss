@@ -1,0 +1,28 @@
+.services2{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: center;
+    padding: 10rem 0 0 0;
+    background: $clr-gray;
+
+    h1{
+        font-family: $secondary_font_family;
+        font-size: $fs-h1;
+        font-weight: 800;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: $clr-secondary;
+    }
+
+    p{
+        @extend %par;
+        width: 1005px;
+        
+        mark{
+            color:#06855A;
+            background: $clr-gray;
+            font-weight: 600;
+        }
+    }
+}

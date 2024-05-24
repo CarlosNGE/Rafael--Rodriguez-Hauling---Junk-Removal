@@ -29,6 +29,46 @@
   color: #fff;
 }
 
+html .process p, html .services2 p, html .services p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 3rem;
+  color: #000;
+}
+
+html footer .f-location, html footer .f-contact, html footer .f-services {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  color: #fff;
+}
+
+html footer .f-location h4, html footer .f-contact h4, html footer .f-services h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+html footer .f-location ul, html footer .f-contact ul, html footer .f-services ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+html footer .f-location ul li, html footer .f-contact ul li, html footer .f-services ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  line-height: 3.5rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -234,14 +274,6 @@ html .services h2 {
 }
 html .services p {
   width: 900px;
-  font-family: "Roboto", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 0.5px;
-  text-align: left;
-  line-height: 3rem;
-  color: #000;
 }
 html .services p mark {
   color: #06855A;
@@ -285,6 +317,30 @@ html .services .services-cards .card p {
   line-height: 2.6rem;
   color: #000;
 }
+html .services2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+  padding: 10rem 0 0 0;
+  background: #f4f4f4;
+}
+html .services2 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #06855A;
+}
+html .services2 p {
+  width: 1005px;
+}
+html .services2 p mark {
+  color: #06855A;
+  background: #f4f4f4;
+  font-weight: 600;
+}
 html .process {
   display: flex;
   flex-direction: column;
@@ -303,14 +359,6 @@ html .process h2 {
 }
 html .process p {
   width: 900px;
-  font-family: "Roboto", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 0.5px;
-  text-align: left;
-  line-height: 3rem;
-  color: #000;
 }
 html .process p mark {
   color: #06855A;
@@ -386,29 +434,4 @@ html footer .f-contact ul p {
 html footer a {
   color: #fff;
   text-decoration: none;
-}
-html footer .f-services, html footer .f-contact, html footer .f-location {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  color: #fff;
-}
-html footer .f-services h4, html footer .f-contact h4, html footer .f-location h4 {
-  font-family: "Raleway", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 900;
-  letter-spacing: 2px;
-}
-html footer .f-services ul, html footer .f-contact ul, html footer .f-location ul {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-html footer .f-services ul li, html footer .f-contact ul li, html footer .f-location ul li {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.8rem;
-  letter-spacing: 1.5px;
-  line-height: 3.5rem;
 }/*# sourceMappingURL=style.css.map */
