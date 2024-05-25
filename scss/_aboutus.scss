@@ -1,0 +1,114 @@
+.aboutus{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1.25fr 1.5fr 2fr .75fr;
+    grid-column-gap: 10rem;
+    grid-row-gap: 0; 
+    grid-template-areas: 
+    "a a b b b"
+    "a a c c c"
+    "a a d d d"
+    "a a e e e"
+    ;
+    padding: 10rem 0 10rem 13rem;
+    background: $clr-ligth-gray;
+
+    .div1 { 
+        grid-area: a;
+    }
+
+    .div2 {
+        grid-area: b; 
+    }
+
+    .div3 { 
+        grid-area: c; 
+    }
+
+    .div4 { 
+        grid-area: d; 
+    }
+    
+    .div5 { 
+        grid-area: e;
+        text-align: center; 
+        padding: 0 13rem 0 0;
+    } 
+
+    h1{
+        @extend %h1;
+        width: 100%;
+        padding: 5rem 13rem 0 0;
+    }
+
+    p{
+        @extend %par;
+        width: 100%;
+        padding: 0 13rem 0 0;
+
+        mark{
+            color: $clr-secondary;
+            background: $clr-ligth-gray;
+            font-weight: 600;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+}
+
+.whyus{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding: 15rem 0 15rem 0;
+    background: $clr-ntrl-min;
+
+    h2{
+        @extend %in-card-h2;
+    }
+
+    h3{
+        font-family: $secondary_font_family;
+        font-size: $fs-h3;
+        font-weight: 500;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: $clr-ntrl-max;
+    }
+
+    .whyus-list{
+        margin-top: 4rem;
+        width: 900px;
+        display: flex;
+        gap: 8rem;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5rem;
+            margin: 3rem 0 3rem 0;
+
+            li{
+                font-family: $primary_font_family;
+                font-size: 2.1rem;
+                font-weight: 300;
+                letter-spacing: 0.75px;
+                border-radius: 5px;
+                color: $clr-ntrl-max;    
+                
+                strong{
+                    color: $clr-secondary;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

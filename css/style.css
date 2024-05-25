@@ -29,7 +29,7 @@
   color: #fff;
 }
 
-html .services2 p, html .process p, html .services p {
+html .aboutus p, html .services2 p, html .process p, html .services p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -40,7 +40,16 @@ html .services2 p, html .process p, html .services p {
   color: #000;
 }
 
-html .services2 .services-cards2 .card2 .incard h2, html .services2 .services-cards2 .card1 .incard h2 {
+html .aboutus h1, html .gallery2 h1, html .services2 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #06855A;
+}
+
+html .whyus h2, html .services2 .services-cards2 .card2 .incard h2, html .services2 .services-cards2 .card1 .incard h2 {
   font-family: "Raleway", sans-serif;
   font-size: 3rem;
   font-weight: 800;
@@ -99,7 +108,7 @@ html footer .f-location, html footer .f-contact, html footer .f-services {
   color: #fff;
 }
 
-html footer .f-location h4, html footer .f-contact h4, html footer .f-services h4 {
+html footer .f-location p, html footer .f-contact p, html footer .f-services p {
   font-family: "Raleway", sans-serif;
   font-size: 2.2rem;
   font-weight: 900;
@@ -360,7 +369,7 @@ html .services .services-cards .card img {
 }
 html .services .services-cards .card h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #06855A;
   font-weight: 800;
   letter-spacing: 0.75px;
@@ -440,22 +449,14 @@ html .services2 {
   gap: 10rem;
   align-items: center;
   padding: 10rem 0 0 0;
-  background: #f4f4f4;
-}
-html .services2 h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 800;
-  letter-spacing: 0.75px;
-  text-align: center;
-  color: #06855A;
+  background: #f9f9f9;
 }
 html .services2 p {
   width: 1005px;
 }
 html .services2 p mark {
   color: #06855A;
-  background: #f4f4f4;
+  background: #f9f9f9;
   font-weight: 600;
 }
 html .services2 .services-cards2 {
@@ -495,6 +496,9 @@ html .gallery2 {
   min-height: 100vh;
   padding: 5rem 0 0 0;
 }
+html .gallery2 h1 {
+  margin: 0 0 8rem 0;
+}
 html .gallery2 .container {
   max-width: 1170px;
   margin: auto;
@@ -516,6 +520,7 @@ html .gallery2 .container .row .gallery-filter {
 }
 html .gallery2 .container .row .gallery-filter .filter-item {
   color: #000;
+  margin: 0 4px 13px 4px;
   font-size: 17px;
   border: 2px solid #000;
   display: inline-block;
@@ -528,13 +533,18 @@ html .gallery2 .container .row .gallery-filter .filter-item {
 }
 html .gallery2 .container .row .gallery-filter .filter-item.active {
   color: white;
-  background: #16b5ef;
-  border: 2px solid #16b5ef;
+  font-weight: 600;
+  background: #f880b3;
+  border: 2px solid #f880b3;
+}
+html .gallery2 .container .gallery .row {
+  padding-bottom: 10rem;
 }
 html .gallery2 .container .gallery .row .row0 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0 0 10rem 0;
   /* Animation */
   /* for hide */
 }
@@ -560,6 +570,94 @@ html .gallery2 .container .gallery .row .row0 .gallery-item.show { /* for show*/
 }
 html .gallery2 .container .gallery .row .row0 .gallery-item.hide {
   display: none;
+}
+html .aboutus {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1.25fr 1.5fr 2fr 0.75fr;
+  grid-column-gap: 10rem;
+  grid-row-gap: 0;
+  grid-template-areas: "a a b b b" "a a c c c" "a a d d d" "a a e e e";
+  padding: 10rem 0 10rem 13rem;
+  background: #f9f9f9;
+}
+html .aboutus .div1 {
+  grid-area: a;
+}
+html .aboutus .div2 {
+  grid-area: b;
+}
+html .aboutus .div3 {
+  grid-area: c;
+}
+html .aboutus .div4 {
+  grid-area: d;
+}
+html .aboutus .div5 {
+  grid-area: e;
+  text-align: center;
+  padding: 0 13rem 0 0;
+}
+html .aboutus h1 {
+  width: 100%;
+  padding: 5rem 13rem 0 0;
+}
+html .aboutus p {
+  width: 100%;
+  padding: 0 13rem 0 0;
+}
+html .aboutus p mark {
+  color: #06855A;
+  background: #f9f9f9;
+  font-weight: 600;
+}
+html .aboutus img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+html .whyus {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  padding: 15rem 0 15rem 0;
+  background: #fff;
+}
+html .whyus h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #000;
+}
+html .whyus .whyus-list {
+  margin-top: 4rem;
+  width: 900px;
+  display: flex;
+  gap: 8rem;
+}
+html .whyus .whyus-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  margin: 3rem 0 3rem 0;
+}
+html .whyus .whyus-list ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  border-radius: 5px;
+  color: #000;
+}
+html .whyus .whyus-list ul li strong {
+  color: #06855A;
+  font-weight: 600;
 }
 html footer {
   background: #06855A;

@@ -9,6 +9,15 @@
     color: $clr-ntrl-max;
 }
 
+%h1{
+    font-family: $secondary_font_family;
+    font-size: $fs-h1;
+    font-weight: 800;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: $clr-secondary;
+}
+
 %in-card-h2{
     font-family: $secondary_font_family;
     font-size: $fs-h2;
@@ -79,9 +88,9 @@
     color: $clr-ntrl-min;
 }
 
-%footer-h4{
+%footer-title{
     font-family: $secondary_font_family;
-    font-size: $fs-h4;
+    font-size: $fs-base;
     font-weight: 900;
     letter-spacing: 2px;
 }

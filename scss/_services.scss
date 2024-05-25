@@ -4,15 +4,10 @@
     gap: 10rem;
     align-items: center;
     padding: 10rem 0 0 0;
-    background: $clr-gray;
+    background: $clr-ligth-gray;
 
     h1{
-        font-family: $secondary_font_family;
-        font-size: $fs-h1;
-        font-weight: 800;
-        letter-spacing: 0.75px;
-        text-align: center;
-        color: $clr-secondary;
+        @extend %h1;
     }
 
     p{
@@ -21,7 +16,7 @@
         
         mark{
             color:#06855A;
-            background: $clr-gray;
+            background: $clr-ligth-gray;
             font-weight: 600;
         }
     }
