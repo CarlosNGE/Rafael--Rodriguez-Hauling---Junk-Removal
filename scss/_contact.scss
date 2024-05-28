@@ -1,0 +1,110 @@
+.contact{
+    display: flex;
+    margin: 5rem 13rem 10rem 13rem;
+    gap: 5rem;
+    border: 5px lighten($clr-primary, 10%) solid;
+    border-radius: 10px;
+
+    .container{
+        width: 100%;
+        padding: 0;
+
+        form{
+            background: lighten($clr-primary, 10%);
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+
+            h1{
+                color: $clr-dark-gray;
+                font-weight: 800;
+                margin-bottom: 20px;
+                font-size: $fs-h1;
+            }
+
+            input,
+            select{
+                border: 0;
+                margin: 10px 0;
+                width: 100%;
+                height: 40px;
+                outline: none;
+                background: $clr-ntrl-min;
+                font-size: $fs-nano;
+                padding: 6px 0 15px 10px;
+                border-radius: 5px;
+            }
+
+            textarea{
+                border: 0;
+                margin: 10px 0;
+                width: 100%;
+                height: 150px;
+                outline: none;
+                background: $clr-ntrl-min;
+                padding: 6px 0 15px 10px;
+                font-size: $fs-nano;
+                border-radius: 5px;
+            }
+
+            button{
+                width: 150px;
+                margin: 20px auto 0;
+            }
+        }
+    }
+
+    .contact-info{
+        width: 100%;
+        display: flex;
+        
+        ul{
+            display: flex;
+            flex-direction: column;
+            border: 5px lighten($clr-primary, 10%) solid
+        }
+
+        p{
+            font-family: $primary_font_family;
+            font-size: $fs-base;
+            font-weight: 400;
+            letter-spacing: 0.75px;
+        }
+
+        .contact-f{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+
+            a{
+                color: $clr-ntrl-max;
+                font-size: 18px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            
+            img{
+                display: flex;
+                margin: auto;
+                width: 80%;
+                height: 100%;
+            }
+
+            .f{
+                display: flex;
+                gap: 2rem;
+                align-items: start;
+                
+                .bi-envelope,
+                .bi-telephone,
+                .bi-geo-alt{
+                    width: 3rem;
+                    height: 100%;
+                    color: lighten($clr-primary, 10%);
+                }
+            }
+        }
+    }
+}

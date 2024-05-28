@@ -32,6 +32,17 @@
     color: $clr-ntrl-min;
 }
 
+.btn-tertiary{
+    @extend %btn;
+    background: darken($clr-ligth-gray, 10%);
+    width: 200px;
+    color: $clr-ntrl-max;
+
+    &:hover{
+        background: darken($clr-ligth-gray, 20%);
+    }
+}
+
 
 
 
