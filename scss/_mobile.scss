@@ -323,21 +323,70 @@
                     }
                 }
             }
-        }
 
-        .gallery{
+            .gallery{
 
-            .row{
-
-                .row0{
+                .row{
+                    border: 1px black solid;
                     
-                    .gallery-item{
-                        width: calc(100% / 1);
-                        padding: 15px;
+                    .row0{
+                        border: 1px black solid;
+                        
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
+                    }
+
+                    .row1{
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
+                    }
+
+                    .row2{
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
+                    }
+
+                    .row3{
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
+                    }
+
+                    .row4{
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
+                    }
+
+                    .row5{
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
+                    }
+
+                    .row6{
+                        .gallery-item{
+                            width: calc(100% / 1);
+                            padding: 15px;
+                        }
                     }
                 }
+
+                
+
+                
             }
         }
+
     }
 
     /* start footer styles headline */

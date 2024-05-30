@@ -556,7 +556,7 @@ html .gallery2 .container .row .gallery-filter .filter-item.active {
   border: 2px solid #f880b3;
 }
 html .gallery2 .container .gallery .row {
-  padding-bottom: 10rem;
+  padding-bottom: 0;
 }
 html .gallery2 .container .gallery .row .row0 {
   display: flex;
@@ -1069,7 +1069,37 @@ html footer a {
   html .gallery2 .container .row .gallery-filter .filter-item {
     margin-bottom: 15px;
   }
-  html .gallery2 .gallery .row .row0 .gallery-item {
+  html .gallery2 .container .gallery .row {
+    border: 1px black solid;
+  }
+  html .gallery2 .container .gallery .row .row0 {
+    border: 1px black solid;
+  }
+  html .gallery2 .container .gallery .row .row0 .gallery-item {
+    width: 100%;
+    padding: 15px;
+  }
+  html .gallery2 .container .gallery .row .row1 .gallery-item {
+    width: 100%;
+    padding: 15px;
+  }
+  html .gallery2 .container .gallery .row .row2 .gallery-item {
+    width: 100%;
+    padding: 15px;
+  }
+  html .gallery2 .container .gallery .row .row3 .gallery-item {
+    width: 100%;
+    padding: 15px;
+  }
+  html .gallery2 .container .gallery .row .row4 .gallery-item {
+    width: 100%;
+    padding: 15px;
+  }
+  html .gallery2 .container .gallery .row .row5 .gallery-item {
+    width: 100%;
+    padding: 15px;
+  }
+  html .gallery2 .container .gallery .row .row6 .gallery-item {
     width: 100%;
     padding: 15px;
   }
