@@ -301,18 +301,15 @@
 
     .gallery2{
         padding: 18rem 0 0 0;
-        // border: 1px black solid;
         margin: 0;
 
         h1{
             width: 100%;
             font-size: $fs-h1-s;
             margin: 0 0 4rem 0;
-            // border: 1px black solid;
         }
 
         .container{
-            // border: 1px black solid;
 
             .row{
 
@@ -327,10 +324,9 @@
             .gallery{
 
                 .row{
-                    border: 1px black solid;
+                    padding: 0 0 10rem 0;
                     
                     .row0{
-                        border: 1px black solid;
                         
                         .gallery-item{
                             width: calc(100% / 1);
@@ -380,13 +376,123 @@
                         }
                     }
                 }
+            }
+        }
+    }
 
-                
+    /* end gallery styles headline */
 
-                
+    /* start about us styles headline */
+
+    .aboutus{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0;
+        grid-row-gap: 5rem; 
+        grid-template-areas: 
+        "b"
+        "a"
+        "c"
+        "d"
+        "e"
+        ;
+        padding: 12rem 0 8rem 0;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            width: 100%;
+            font-size: $fs-h1-s;
+            padding: 7rem 0 1rem 0;
+        }
+
+        p{
+            letter-spacing: 0.25px;
+            font-size: $fs-milli;
+            padding: 0 3rem 0 3rem;
+        }
+
+        .div1 { 
+            grid-area: a;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin: auto;
+                width: 350px;
+                height: 300px;
+                object-fit: cover;
+                object-position: 10% 10%;
             }
         }
 
+        .div5 { 
+            grid-area: e;
+            padding: 0 0 0 0;
+        } 
+    }
+
+    .whyus{
+        width: 100%;
+        padding: 10rem 0 8rem 0;
+        align-items: center;
+
+        h2{
+            font-size: $fs-h2-s;
+            width: 70%;
+        }
+
+        h3{
+            width: 80%;
+            font-size: $fs-h3;
+        }
+        
+        .whyus-list{
+            width: 80%;
+
+            ul{
+
+                li{
+                    letter-spacing: 0.25px;
+                    font-size: $fs-milli;
+                    padding: 0 1.5rem 0 0;
+                }
+            }
+        }
+    }
+
+    /* end about us styles headline */
+
+    /* start contact styles headline */
+
+    .contact{
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0;
+        padding: 18rem 0 0 0;
+        border: none;
+
+        .container{
+            padding: 2rem;
+
+            form{
+                width: 100%;
+                background: #f4a4c5;
+                display: flex;
+                flex-direction: column;
+                padding: 50px;
+                border-radius: 10px;
+            }
+        }
+
+        .contact-info{
+            margin: 0 0 5rem 0;
+
+            .contact-f img{
+                display: none;
+            }
+        }
     }
 
     /* start footer styles headline */

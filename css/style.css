@@ -667,7 +667,7 @@ html .whyus .whyus-list ul {
 }
 html .whyus .whyus-list ul li {
   font-family: "Roboto", sans-serif;
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   font-weight: 300;
   letter-spacing: 0.75px;
   border-radius: 5px;
@@ -822,6 +822,10 @@ html footer a {
     /* start services styles headline */
     /* end services styles headline */
     /* start gallery styles headline */
+    /* end gallery styles headline */
+    /* start about us styles headline */
+    /* end about us styles headline */
+    /* start contact styles headline */
     /* start footer styles headline */
     /* end footer styles headline */
   }
@@ -1070,10 +1074,7 @@ html footer a {
     margin-bottom: 15px;
   }
   html .gallery2 .container .gallery .row {
-    border: 1px black solid;
-  }
-  html .gallery2 .container .gallery .row .row0 {
-    border: 1px black solid;
+    padding: 0 0 10rem 0;
   }
   html .gallery2 .container .gallery .row .row0 .gallery-item {
     width: 100%;
@@ -1102,6 +1103,90 @@ html footer a {
   html .gallery2 .container .gallery .row .row6 .gallery-item {
     width: 100%;
     padding: 15px;
+  }
+  html .aboutus {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 5rem;
+    grid-template-areas: "b" "a" "c" "d" "e";
+    padding: 12rem 0 8rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+  html .aboutus h1 {
+    width: 100%;
+    font-size: 3rem;
+    padding: 7rem 0 1rem 0;
+  }
+  html .aboutus p {
+    letter-spacing: 0.25px;
+    font-size: 1.8rem;
+    padding: 0 3rem 0 3rem;
+  }
+  html .aboutus .div1 {
+    grid-area: a;
+    display: flex;
+    align-items: center;
+  }
+  html .aboutus .div1 img {
+    margin: auto;
+    width: 350px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 10% 10%;
+       object-position: 10% 10%;
+  }
+  html .aboutus .div5 {
+    grid-area: e;
+    padding: 0 0 0 0;
+  }
+  html .whyus {
+    width: 100%;
+    padding: 10rem 0 8rem 0;
+    align-items: center;
+  }
+  html .whyus h2 {
+    font-size: 2.8rem;
+    width: 70%;
+  }
+  html .whyus h3 {
+    width: 80%;
+    font-size: 2.4rem;
+  }
+  html .whyus .whyus-list {
+    width: 80%;
+  }
+  html .whyus .whyus-list ul li {
+    letter-spacing: 0.25px;
+    font-size: 1.8rem;
+    padding: 0 1.5rem 0 0;
+  }
+  html .contact {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+    padding: 18rem 0 0 0;
+    border: none;
+  }
+  html .contact .container {
+    padding: 2rem;
+  }
+  html .contact .container form {
+    width: 100%;
+    background: #f4a4c5;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  html .contact .contact-info {
+    margin: 0 0 5rem 0;
+  }
+  html .contact .contact-info .contact-f img {
+    display: none;
   }
   html footer {
     flex-direction: column;
