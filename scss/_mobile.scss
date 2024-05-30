@@ -78,6 +78,7 @@
                         width: 40px;
                         height: 40px;
                         border: 2.5px $clr-ntrl-max solid;
+                        transition: ease-in-out 0.2s;
                     }
 
                     .collapse{
@@ -478,10 +479,6 @@
 
             form{
                 width: 100%;
-                background: #f4a4c5;
-                display: flex;
-                flex-direction: column;
-                padding: 50px;
                 border-radius: 10px;
             }
         }
@@ -494,6 +491,8 @@
             }
         }
     }
+
+    /* end contact styles headline */
 
     /* start footer styles headline */
 

@@ -110,7 +110,6 @@ header{
 
     .nav2{
         display: flex;
-        /* border: 1px black solid; */
         align-items: center;
         padding: 1rem;
 
@@ -129,43 +128,45 @@ header{
             position: absolute;
             right: 114px;
             height: 30px;
-            /* border: 1px black solid; */
-        }
 
-        .container-fluid{
-            width: 100%;
-            background-color: #fff;
-            // height: 30px;
-            /* border: 1px black solid; */
-        }
+            .container-fluid{
+                width: 100%;
+                background-color: $clr-ntrl-min;
+                // height: 30px;
+                /* border: 1px black solid; */
 
-        .navbar-brand{
-            display: none;
-        }
+                .navbar-brand{
+                    display: none;
+                }
 
-        .navbar-nav{
-            display: flex;
-            gap: 4rem;
-            margin: 0;
-            padding: 0;
-            font-family: "Raleway", sans-serif;
-            font-weight: 600;
-            font-style: normal;
-            font-size: 1.75rem;
-            /* border: 1px black solid; */
+                .collapse{
 
-            li{
-                margin: 0;
-            }
-
-            a{
-                text-decoration: none;
-                height: 32px;
-                margin: 0;
-                color: #000;
-
-                &:hover{
-                    border-bottom: #F763A1 solid 3px;
+                    .navbar-nav{
+                        display: flex;
+                        gap: 4rem;
+                        margin: 0;
+                        padding: 0;
+                        font-family: $secondary_font_family;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: $fs-milli;
+                        /* border: 1px black solid; */
+            
+                        li{
+                            margin: 0;
+                        }
+            
+                        a{
+                            text-decoration: none;
+                            height: 32px;
+                            margin: 0;
+                            color: $clr-ntrl-max;
+            
+                            &:hover{
+                                border-bottom: $clr-primary solid 3px;
+                            }
+                        }
+                    }
                 }
             }
         }
