@@ -14,22 +14,22 @@ header{
             top: 5px;
             left: 125px;
             padding-left: 1.5rem;
-            border-left: 1px $border-clr-ligth solid;
+            // border-left: 1px $clr-ntrl-max solid;
 
             p{
                 font-family: $primary_font_family;
                 font-weight: 400;
                 font-style: normal;
                 font-size: 1.5rem;
-                color: $clr-ntrl-min;
+                color: $clr-ntrl-max;
 
                 strong{
-                    color:$clr-ntrl-min;
+                    color:$clr-ntrl-max;
                 }
             }
 
             .phone{
-                border-right: 1px $border-clr-ligth solid;
+                // border-right: 1px $border-clr-ligth solid;
                 height: 4rem;
                 display: flex;
                 align-items: center;
@@ -40,12 +40,11 @@ header{
         }
         
         a{
-            color: $clr-ntrl-min;
+            color: $clr-ntrl-max;
             font-family: $primary_font_family;
-            font-weight: 800;
+            font-weight: 425;
             font-style: normal;
             font-size: 1.5rem;
-            color: $clr-ntrl-min;
         }
 
         .languages{
@@ -53,7 +52,7 @@ header{
             gap: 1.2rem;
             position: absolute;
             top: 10px;
-            right: 285px;
+            right: 300px;
 
             a{
                 text-decoration: none;
@@ -65,7 +64,8 @@ header{
                 position: relative;
                 top: 3.4px;
                 left: 6px;
-                border: $border-clr-ligth 1px solid;
+                border: $clr-ntrl-max 1.5px solid;
+                border-radius: 4px;
             }
         }
 
@@ -73,6 +73,7 @@ header{
             display: flex;
             align-items: center;
             justify-content:space-around;
+            gap: 0.5rem;
             position: absolute;
             right: 125px;
             height: 4rem;
@@ -80,8 +81,8 @@ header{
             li{
                 display: flex;
                 align-items: center;
-                border-left: 1px $border-clr-ligth solid;
-                border-right: 1px $border-clr-ligth solid;
+                // border-left: 1px $border-clr-ligth solid;
+                // border-right: 1px $border-clr-ligth solid;
                 height: 4rem;
                 padding: 0 1rem 0 1rem;
 
@@ -89,11 +90,11 @@ header{
                 .bi-instagram,
                 .bi-tiktok
                 {
-                    height: 25px;
-                    width: 25px;
-                    &:hover{
-                        color: $clr-primary;
-                    }
+                    height: 21px;
+                    width: 21px;
+                    // &:hover{
+                    //     color: $clr-primary;
+                    // }
                 }
                 &:hover{
                     background: $clr-ntrl-min;

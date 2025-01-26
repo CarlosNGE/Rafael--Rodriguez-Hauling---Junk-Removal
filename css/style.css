@@ -11,22 +11,22 @@
   transition: all 0.2 ease;
 }
 .btn-tertiary:hover, .btn-secondary:hover, .btn-primary:hover {
-  background: #f5418d;
+  background: #f0c502;
 }
 .btn-tertiary:active, .btn-secondary:active, .btn-primary:active {
   transform: scale(0.96);
 }
 
 .btn-primary {
-  background: linear-gradient(#f76da7, #F763A1);
+  background: linear-gradient(#fdd623, #fdd419);
   width: 165px;
-  color: #fff;
+  color: #000;
 }
 
 .btn-secondary {
-  background: linear-gradient(#f76da7, #F763A1);
+  background: linear-gradient(#fdd623, #fdd419);
   width: 200px;
-  color: #fff;
+  color: #000;
 }
 
 .btn-tertiary {
@@ -55,16 +55,16 @@ html .aboutus h1, html .gallery2 h1, html .services2 h1 {
   font-weight: 800;
   letter-spacing: 0.75px;
   text-align: center;
-  color: #06855A;
+  color: #343434;
 }
 
 html .whyus h2, html .services2 .services-cards2 .card2 .incard h2, html .services2 .services-cards2 .card1 .incard h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 800;
   text-align: center;
   letter-spacing: 0.75px;
-  color: #06855A;
+  color: #343434;
 }
 
 html .services2 .services-cards2 .card2 .incard p, html .services2 .services-cards2 .card1 .incard p {
@@ -125,20 +125,20 @@ html footer .f-location, html footer .f-contact, html footer .f-services {
   color: #fff;
 }
 
-html footer .f-location p, html footer .f-contact p, html footer .f-services p {
+html footer .f-location h3, html footer .f-contact h3, html footer .f-services h3, html footer .f-socialmedia h3 {
   font-family: "Raleway", sans-serif;
   font-size: 2.2rem;
   font-weight: 900;
   letter-spacing: 2px;
 }
 
-html footer .f-location ul, html footer .f-contact ul, html footer .f-services ul {
+html footer .f-contact address, html footer .f-services ul {
   display: flex;
   flex-direction: column;
   padding: 0;
 }
 
-html footer .f-location ul li, html footer .f-contact ul li, html footer .f-services ul li {
+html footer .f-services ul li {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -171,7 +171,7 @@ html header .contact-header {
   display: flex;
   height: 4rem;
   width: 100%;
-  background-color: #F763A1;
+  background-color: #fdd419;
 }
 html header .contact-header .quote {
   display: flex;
@@ -181,20 +181,18 @@ html header .contact-header .quote {
   top: 5px;
   left: 125px;
   padding-left: 1.5rem;
-  border-left: 1px #fff solid;
 }
 html header .contact-header .quote p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: #fff;
+  color: #000;
 }
 html header .contact-header .quote p strong {
-  color: #fff;
+  color: #000;
 }
 html header .contact-header .quote .phone {
-  border-right: 1px #fff solid;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -202,19 +200,18 @@ html header .contact-header .quote .phone {
   letter-spacing: 0.15rem;
 }
 html header .contact-header a {
-  color: #fff;
+  color: #000;
   font-family: "Roboto", sans-serif;
-  font-weight: 800;
+  font-weight: 425;
   font-style: normal;
   font-size: 1.5rem;
-  color: #fff;
 }
 html header .contact-header .languages {
   display: flex;
   gap: 1.2rem;
   position: absolute;
   top: 10px;
-  right: 285px;
+  right: 300px;
 }
 html header .contact-header .languages a {
   text-decoration: none;
@@ -225,12 +222,14 @@ html header .contact-header .languages img {
   position: relative;
   top: 3.4px;
   left: 6px;
-  border: #fff 1px solid;
+  border: #000 1.5px solid;
+  border-radius: 4px;
 }
 html header .contact-header ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 0.5rem;
   position: absolute;
   right: 125px;
   height: 4rem;
@@ -238,21 +237,14 @@ html header .contact-header ul {
 html header .contact-header ul li {
   display: flex;
   align-items: center;
-  border-left: 1px #fff solid;
-  border-right: 1px #fff solid;
   height: 4rem;
   padding: 0 1rem 0 1rem;
 }
 html header .contact-header ul li .bi-facebook,
 html header .contact-header ul li .bi-instagram,
 html header .contact-header ul li .bi-tiktok {
-  height: 25px;
-  width: 25px;
-}
-html header .contact-header ul li .bi-facebook:hover,
-html header .contact-header ul li .bi-instagram:hover,
-html header .contact-header ul li .bi-tiktok:hover {
-  color: #F763A1;
+  height: 21px;
+  width: 21px;
 }
 html header .contact-header ul li:hover {
   background: #fff;
@@ -305,7 +297,7 @@ html header .nav2 .navbar .container-fluid .collapse .navbar-nav a {
   color: #000;
 }
 html header .nav2 .navbar .container-fluid .collapse .navbar-nav a:hover {
-  border-bottom: #F763A1 solid 3px;
+  border-bottom: #fdd419 solid 3px;
 }
 html .welcome {
   display: flex;
@@ -350,18 +342,18 @@ html .services {
   margin: 15rem 0 15rem 0;
 }
 html .services h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   letter-spacing: 0.75px;
   text-align: center;
-  color: #06855A;
+  color: #343434;
 }
 html .services p {
   width: 900px;
 }
 html .services p mark {
-  color: #06855A;
+  color: #343434;
   background: #fff;
   font-weight: 600;
 }
@@ -386,8 +378,8 @@ html .services .services-cards .card img {
 }
 html .services .services-cards .card h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.4rem;
-  color: #06855A;
+  font-size: 2rem;
+  color: #343434;
   font-weight: 800;
   letter-spacing: 0.75px;
 }
@@ -411,18 +403,18 @@ html .process {
   background: #f4f4f4;
 }
 html .process h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   letter-spacing: 0.75px;
   text-align: center;
-  color: #06855A;
+  color: #343434;
 }
 html .process p {
   width: 900px;
 }
 html .process p mark {
-  color: #06855A;
+  color: #343434;
   background: #f4f4f4;
   font-weight: 600;
 }
@@ -448,12 +440,20 @@ html .process .process-list ol {
   margin: 5rem 0 3rem 0;
 }
 html .process .process-list ol li {
+  /*font-family: $secondary_font_family;
+  font-size: $fs-h3;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+  border-radius: 5px;
+  color: $clr-secondary;*/
+}
+html .process .process-list ol li h3 {
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0.75px;
   border-radius: 5px;
-  color: #06855A;
+  color: #343434;
 }
 html .process .process-list ol p {
   width: 400px;
@@ -549,10 +549,10 @@ html .gallery2 .container .row .gallery-filter .filter-item {
   text-transform: uppercase;
 }
 html .gallery2 .container .row .gallery-filter .filter-item.active {
-  color: white;
+  color: #000;
   font-weight: 600;
-  background: #f880b3;
-  border: 2px solid #f880b3;
+  background: #fdda37;
+  border: 2px solid #fdda37;
 }
 html .gallery2 .container .gallery .row {
   padding-bottom: 0;
@@ -625,7 +625,7 @@ html .aboutus p {
   padding: 0 13rem 0 0;
 }
 html .aboutus p mark {
-  color: #06855A;
+  color: #343434;
   background: #f9f9f9;
   font-weight: 600;
 }
@@ -645,7 +645,7 @@ html .whyus {
 }
 html .whyus h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.75px;
   text-align: center;
@@ -673,14 +673,14 @@ html .whyus .whyus-list ul li {
   color: #000;
 }
 html .whyus .whyus-list ul li strong {
-  color: #06855A;
+  color: #343434;
   font-weight: 600;
 }
 html .contact {
   display: flex;
   margin: 5rem 13rem 10rem 13rem;
   gap: 5rem;
-  border: 5px #f994be solid;
+  border: 5px #fddd4c solid;
   border-radius: 10px;
 }
 html .contact .container {
@@ -688,7 +688,7 @@ html .contact .container {
   padding: 0;
 }
 html .contact .container form {
-  background: #f994be;
+  background: #fddd4c;
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -733,7 +733,7 @@ html .contact .contact-info {
 html .contact .contact-info ul {
   display: flex;
   flex-direction: column;
-  border: 5px #f994be solid;
+  border: 5px #fddd4c solid;
 }
 html .contact .contact-info p {
   font-family: "Roboto", sans-serif;
@@ -770,20 +770,23 @@ html .contact .contact-info .contact-f .f .bi-telephone,
 html .contact .contact-info .contact-f .f .bi-geo-alt {
   width: 3rem;
   height: 100%;
-  color: #f994be;
+  color: #fddd4c;
 }
 html footer {
-  background: #06855A;
+  background: #343434;
   display: flex;
   justify-content: center;
-  gap: 15rem;
+  gap: 12rem;
   padding: 9rem 0 9rem 0;
 }
 html footer .f-socialmedia {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   align-items: center;
+}
+html footer .f-socialmedia h3 {
+  color: #fff;
 }
 html footer .f-socialmedia ul {
   margin-left: 0;
@@ -796,7 +799,15 @@ html footer .f-socialmedia ul .f-tiktok {
   height: 35px;
   width: 35px;
 }
-html footer .f-contact ul p {
+html footer .f-contact address p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.6rem;
+  letter-spacing: 1.2px;
+  line-height: 3rem;
+}
+html footer .f-location p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -1041,7 +1052,7 @@ html footer a {
     display: flex;
     margin: 5rem 7rem 10rem 7rem;
     gap: 5rem;
-    border: 5px #f994be solid;
+    border: 5px #fddd4c solid;
     border-radius: 10px;
   }
   html footer {
@@ -1329,7 +1340,7 @@ html footer a {
   }
   html .services2 .services-cards2 .card1 .incard h2,
   html .services2 .services-cards2 .card2 .incard h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     width: 70%;
   }
   html .services2 .services-cards2 .card1 .incard p,
@@ -1429,7 +1440,7 @@ html footer a {
   }
   html .whyus h3 {
     width: 80%;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   html .whyus .whyus-list {
     width: 80%;

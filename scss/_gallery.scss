@@ -45,7 +45,7 @@
                 }
 
                 .filter-item.active{
-                    color: white;
+                    color: $clr-ntrl-max;
                     font-weight: 600;
                     background: lighten($clr-primary, 6%);
                     border: 2px solid lighten($clr-primary, 6%);;

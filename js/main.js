@@ -106,4 +106,5 @@ var gallery = $('.gallery a').simpleLightbox({
 
 
 
+
 console.log("galleryItem");

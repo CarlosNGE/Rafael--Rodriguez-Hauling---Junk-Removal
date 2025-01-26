@@ -48,12 +48,21 @@
             margin: 5rem 0 3rem 0;
 
             li{
-                font-family: $secondary_font_family;
-                font-size: $fs-low;
+                /*font-family: $secondary_font_family;
+                font-size: $fs-h3;
                 font-weight: 800;
                 letter-spacing: 0.75px;
                 border-radius: 5px;
-                color: $clr-secondary;
+                color: $clr-secondary;*/
+
+                h3{
+                    font-family: $secondary_font_family;
+                    font-size: $fs-h3;
+                    font-weight: 800;
+                    letter-spacing: 0.75px;
+                    border-radius: 5px;
+                    color: $clr-secondary;
+                }
             }
 
             p{

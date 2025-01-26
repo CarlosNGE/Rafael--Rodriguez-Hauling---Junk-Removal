@@ -2,14 +2,19 @@ footer{
     background: $clr-secondary;
     display: flex;
     justify-content: center;
-    gap: 15rem;
+    gap: 12rem;
     padding: 9rem 0 9rem 0;
 
     .f-socialmedia{
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
         align-items: center;
+
+        h3{
+            @extend %footer-title;
+            color: $clr-ntrl-min;
+        }
 
         ul{
             margin-left: 0;
@@ -28,7 +33,7 @@ footer{
     .f-services{
         @extend %footer-sect;
 
-        p{
+        h3{
             @extend %footer-title;
         }
 
@@ -44,16 +49,12 @@ footer{
     .f-contact{
         @extend %footer-sect;
 
-        p{
+        h3{
             @extend %footer-title;
         }
 
-        ul{
+        address{
             @extend %footer-ul;
-
-            li{
-                @extend %footer-li;
-            }
 
             p{
                 font-family: $primary_font_family;
@@ -69,16 +70,18 @@ footer{
     .f-location{
         @extend %footer-sect;
 
-        p{
+        h3{
             @extend %footer-title;
+            
         }
 
-        ul{
-            @extend %footer-ul;
-
-            li{
-                @extend %footer-li;
-            }
+        p{
+            font-family: $primary_font_family;
+            font-weight: 500;
+            font-style: normal;
+            font-size: $fs-nano;
+            letter-spacing: 1.2px;
+            line-height: 3rem;
         }
     }
 

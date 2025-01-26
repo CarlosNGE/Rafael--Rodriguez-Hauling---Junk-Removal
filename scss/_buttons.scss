@@ -22,14 +22,14 @@
     @extend %btn;
     background: linear-gradient(lighten($clr-primary, 2%), $clr-primary);
     width: 165px;
-    color: $clr-ntrl-min;
+    color: $clr-ntrl-max;
 }
 
 .btn-secondary{
     @extend %btn;
     background: linear-gradient(lighten($clr-primary, 2%), $clr-primary);
     width: 200px;
-    color: $clr-ntrl-min;
+    color: $clr-ntrl-max;
 }
 
 .btn-tertiary{
