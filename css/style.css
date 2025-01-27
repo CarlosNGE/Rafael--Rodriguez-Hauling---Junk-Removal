@@ -38,7 +38,7 @@
   background: #c6c6c6;
 }
 
-html .aboutus p, html .services2 p, html .process p, html .services p {
+html .aboutus p, html .gallery2 p, html .services2 p, html .process p, html .services p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -463,7 +463,7 @@ html .process .process-list ol p {
 html .services2 {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 8rem;
   align-items: center;
   padding: 10rem 0 0 0;
   background: #f9f9f9;
@@ -472,7 +472,7 @@ html .services2 p {
   width: 1005px;
 }
 html .services2 p mark {
-  color: #06855A;
+  color: #000;
   background: #f9f9f9;
   font-weight: 600;
 }
@@ -508,13 +508,26 @@ html .services2 .services-cards2 img {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 html .gallery2 {
-  width: 100%;
-  display: block;
-  min-height: 100vh;
-  padding: 5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+  padding: 10rem 0 0 0;
+  background: #f9f9f9;
 }
 html .gallery2 h1 {
-  margin: 0 0 8rem 0;
+  margin: 0 0 0 0;
+}
+html .gallery2 p {
+  width: 1005px;
+}
+html .gallery2 p mark {
+  color: #000;
+  background: #f9f9f9;
+  font-weight: 600;
+}
+html .gallery2 a {
+  padding: 0 0 10rem 0;
 }
 html .gallery2 .container {
   max-width: 1170px;

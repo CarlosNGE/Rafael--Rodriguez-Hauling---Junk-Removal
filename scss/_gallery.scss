@@ -1,12 +1,29 @@
 .gallery2{
-    width: 100%;
-    display: block;
-    min-height: 100vh;
-    padding: 5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+    padding: 10rem 0 0 0;
+    background: $clr-ligth-gray;
 
     h1{
         @extend %h1;
-        margin: 0 0 8rem 0;
+        margin: 0 0 0 0;
+    }
+
+    p{
+        @extend %par;
+        width: 1005px;
+        
+        mark{
+            color:$clr-ntrl-max;
+            background: $clr-ligth-gray;
+            font-weight: 600;
+        }
+    }
+
+    a{
+        padding: 0 0 10rem 0;
     }
 
     .container{
